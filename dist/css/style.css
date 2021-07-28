@@ -15,6 +15,10 @@ body {
   line-height: 1.3;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
@@ -42,6 +46,14 @@ body {
   width: 30px;
   height: 2px;
   background-color: #343434;
+}
+.header__links a {
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.04rem;
+  color: #343434;
+  font-weight: 500;
 }
 .header .gitHubIcon img {
   width: 18px;

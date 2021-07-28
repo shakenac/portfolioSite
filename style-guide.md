@@ -30,7 +30,7 @@ The designs were created to the following widths:
 - Weights: 300, 400, 500, 600, 700
 
 - Family [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source)
-- Weights: 400, 600, 700
+- Weights: 400, 500, 600, 700
 
 ### Character Styles
 
