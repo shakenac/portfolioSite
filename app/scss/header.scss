@@ -1,20 +1,30 @@
 .header {
 
+   // mobile nav
+   nav {
+      height: 50px;
+   }
+
    // header logo/name
    &__logo {
-
    }
 
    // mobile menu
    &__menu {
 
+      width: 30px;
+      height: 15px;
+      flex-direction: column;
+      justify-content: space-between;
+      // margin: 20px;
+
+
       > span {
-         display: block;
-         width: 26px;
+         // display: block;
+         width: 30px;
          height: 2px;
          background-color: $black;
       }
-
    }
 
 }
