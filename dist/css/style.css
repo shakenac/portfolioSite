@@ -24,12 +24,13 @@ body {
 .flex-jc-c {
   justify-content: center;
 }
-.flex-ac-c {
+.flex-ai-c {
   align-items: center;
 }
 
 .header nav {
   height: 50px;
+  padding: 50px 34px 34px;
 }
 .header__menu {
   width: 30px;
