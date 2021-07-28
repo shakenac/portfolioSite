@@ -54,6 +54,49 @@ The designs were created to the following widths:
       color: inherit;
    }
 
+
+## Portfolio Image Thumbnails
+
+- Browser thumbnail:
+   .media-box.has-browser-frame {
+      padding: 30px 0 0 0;
+      border-radius: 8px 8px 0 0;
+      background: #ffffff;
+   }
+
+   //browser thumbnail shadow (make adjustments):
+      .media-box.has-shadow {
+         box-shadow: 0 0 28px rgb(30 30 30 / 20%);
+      }
+
+   //browser thumbnail menu dots:
+      .media-box.has-browser-frame:after {
+         content: '···';
+         font-family: "Times New Roman", Times, serif;
+         letter-spacing: -6px;
+         font-weight: 700;
+         color: rgba(0, 0, 0, 0.1);
+         position: absolute;
+         line-height: 1;
+         top: -11px;
+         left: 12px;
+         font-size: 54px;
+      }
+
+
+   //media-box transition:
+      .media-box {
+         position: relative;
+         transition: all 0.2s ease-out;
+      }
+
+   // media-box image (inside the browser-frame)
+      .media-box img {
+         display: block;
+         width: 100%;
+      }
+
+
 ## Resources/References
 
 - https://themes.pixelwars.org/unrovr/demo-01/#/about-me
