@@ -90,7 +90,7 @@ The designs were created to the following widths:
          transition: all 0.2s ease-out;
       }
 
-   // media-box image (inside the browser-frame)
+   // media-box image (inside the browser-frame):
       .media-box img {
          display: block;
          width: 100%;
@@ -101,3 +101,4 @@ The designs were created to the following widths:
 
 - https://themes.pixelwars.org/unrovr/demo-01/#/about-me
 - https://themes.pixelwars.org/unrovr/
+- https://themes.pixelwars.org/life/portfolio-default/
