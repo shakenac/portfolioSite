@@ -69,7 +69,6 @@ button, .button {
    border: 2px solid $black;
    cursor: pointer;
 
-
    font-family: 'Source Code Pro', monospace;
    font-weight: 600;
    font-size: 0.9375rem;
@@ -81,4 +80,14 @@ button, .button {
       color: $white;
       // add transition
    }
+}
+
+
+// Visibility
+
+.hide-for-mobile {
+   // hide for tablet and mobile devices
+}
+.hide-for-desktop {
+   // hide for desktop viewport widths
 }
