@@ -51,6 +51,23 @@ h3 {
   align-items: center;
 }
 
+button, .button {
+  padding: 0.625rem 1.75rem;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  border: 2px solid #343434;
+  cursor: pointer;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+}
+button:hover, .button:hover {
+  background-color: #343434;
+  color: #ffffff;
+}
+
 .header nav {
   height: 50px;
   padding: 45px 34px 34px;
