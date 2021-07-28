@@ -68,6 +68,7 @@ button:hover, .button:hover {
   color: #ffffff;
 }
 
+/*Created mixins so we can reuse media queries*/
 .header nav {
   height: 50px;
   padding: 45px 34px 34px;
