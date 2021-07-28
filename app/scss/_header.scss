@@ -4,6 +4,7 @@
    nav {
       height: 50px;
       padding: 45px 34px 34px;
+
    }
 
    // header logo/name
@@ -29,8 +30,16 @@
       }
    }
 
+
    // header links
    &__links {
+
+      ul {
+         list-style: none;
+         display: flex;
+         align-items: center;
+      }
+
       a {
          font-family: 'Source Code Pro', monospace;
          text-transform: uppercase;
@@ -38,12 +47,28 @@
          letter-spacing: 0.04rem;
          color: $black;
          font-weight: 500;
+         margin-left: 1.875rem; //30px
+         padding-bottom: 1.25rem;
       }
       a:hover {
          font-weight: 700;
+         border-bottom: 0.1875rem solid $orange;
          // add transition
          // add underline
+
+         &:not(:last-child) {
+            border-bottom: 0.1875rem solid $orange;
+         }
       }
+      &:not(:last-child) {
+         margin-right: 1.875rem; //30px
+      }
+   }
+
+   .current {
+      border-bottom: 0.1875rem solid $orange;
+      font-weight: 700;
+      padding-bottom: 1.25rem;
    }
 
    // github icon

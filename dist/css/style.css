@@ -101,6 +101,11 @@ button:hover, .button:hover {
   height: 2px;
   background-color: #343434;
 }
+.header__links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
 .header__links a {
   font-family: "Source Code Pro", monospace;
   text-transform: uppercase;
@@ -108,9 +113,23 @@ button:hover, .button:hover {
   letter-spacing: 0.04rem;
   color: #343434;
   font-weight: 500;
+  margin-left: 1.875rem;
+  padding-bottom: 1.25rem;
 }
 .header__links a:hover {
   font-weight: 700;
+  border-bottom: 0.1875rem solid #f7d891;
+}
+.header__links a:hover:not(:last-child) {
+  border-bottom: 0.1875rem solid #f7d891;
+}
+.header__links:not(:last-child) {
+  margin-right: 1.875rem;
+}
+.header .current {
+  border-bottom: 0.1875rem solid #f7d891;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
 }
 .header .gitHubIcon img {
   width: 18px;
