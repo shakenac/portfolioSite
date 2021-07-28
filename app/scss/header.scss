@@ -39,6 +39,11 @@
          color: $black;
          font-weight: 500;
       }
+      a:hover {
+         font-weight: 700;
+         // add transition
+         // add underline
+      }
    }
 
    // github icon

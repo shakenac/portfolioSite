@@ -96,6 +96,9 @@ button:hover, .button:hover {
   color: #343434;
   font-weight: 500;
 }
+.header__links a:hover {
+  font-weight: 700;
+}
 .header .gitHubIcon img {
   width: 18px;
 }
