@@ -1,3 +1,18 @@
 .header {
-   
+
+   // header logo/name
+   &__logo {
+
+   }
+
+   // mobile menu
+   &__menu {
+
+      > span {
+         display: block;
+         
+      }
+
+   }
+
 }
