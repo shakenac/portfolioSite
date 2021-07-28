@@ -43,5 +43,8 @@ body {
   height: 2px;
   background-color: #343434;
 }
+.header .gitHubIcon img {
+  width: 18px;
+}
 
 /*# sourceMappingURL=style.css.map */
