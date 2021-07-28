@@ -1,3 +1,4 @@
+/*Created mixins so we can reuse media queries*/
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -68,7 +69,18 @@ button:hover, .button:hover {
   color: #ffffff;
 }
 
-/*Created mixins so we can reuse media queries*/
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
 .header nav {
   height: 50px;
   padding: 45px 34px 34px;
