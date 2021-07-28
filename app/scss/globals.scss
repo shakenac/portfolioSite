@@ -12,7 +12,9 @@ html {
 
 // Resets
 body {
-   margin: 0;
+   max-width: 1440px;
+   margin: 0 auto;
+   // margin: 0;
    padding: 0;
    font-family: 'Fira Sans', sans-serif;
    line-height: 1.3;
