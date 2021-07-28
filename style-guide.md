@@ -34,9 +34,9 @@ The designs were created to the following widths:
 
 ### Character Styles
 
-- h1: Fira Sans, 52pt, 400, #343434
-- h2: Fira Sans, 22pt, 500, #ffffff
-- h3: Source Code Pro, 22pt, 600, #343434
+- h1: Fira Sans, 50px, 400, #343434
+- h2: Source Code Pro , 22pt, 500, #ffffff
+- h3: Fira Sans, 18px, 600, #343434
 - h4: Fira Sans, 18pt, 400, #ffffff
 - p: Fira Sans, 12pt, 400, #343434 or #ffffff
 
