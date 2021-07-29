@@ -91,6 +91,7 @@ button:hover, .button:hover {
 .header nav {
   height: 3.125rem;
   padding: 2.8125rem 2.125rem 2.125rem;
+  position: relative;
 }
 .header__logo {
   color: #343434;
@@ -98,6 +99,9 @@ button:hover, .button:hover {
   letter-spacing: -0.01rem;
 }
 .header__menu {
+  position: absolute;
+  right: 2.125rem;
+  z-index: 10;
   width: 1.875rem;
   height: 0.9375rem;
   justify-content: space-between;
@@ -166,8 +170,11 @@ button:hover, .button:hover {
   right: 0;
   width: 100%;
   height: 100vh;
-  z-index: 10;
-  background-color: red;
+  z-index: 5;
+  background-color: #ffffff;
+}
+.header__mobileNav .header__mobileInner {
+  padding-top: 1.25rem;
 }
 .header__mobileNav ul {
   padding-left: 0;
