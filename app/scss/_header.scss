@@ -96,22 +96,26 @@
    // Navigation for Mobile
    &__mobileNav {
       //this will be moved to .active for js
-      justify-content: space-between;
+      //have to add the hamburger menu for when mobile nav is active since it's fixed and overlaps the header
+
+      justify-content: center;
+      align-items: center;
       overflow: hidden;
       height: 100vh;
       width: 100%;
       position: fixed;
-      top: 4.875rem; //78px;
+      // top: 4.875rem; //78px;
+      top: 0;
       bottom: 0;
       right: 0;
       width: 100%;
       height: 100vh;
-      outline: 0;
-      background-color: #fff;
       z-index: 10;
-      overflow-y: scroll;
       background-color: red;
 
+      .header__mobileInner {
+         // justify-content: space-between;
+      }
 
       ul {
          padding-left: 0;
