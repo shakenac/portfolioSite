@@ -132,6 +132,7 @@ button:hover, .button:hover {
 .header ul a:hover {
   font-weight: 700;
   border-bottom: 0.1875rem solid #f7d891;
+  transition: all 200ms ease-in-out;
 }
 .header img {
   width: 1.125rem;
@@ -144,24 +145,39 @@ button:hover, .button:hover {
   margin-left: 1.875rem;
   padding: 1.25rem 0;
 }
+.header__links .current {
+  border-bottom: 0.1875rem solid #f7d891;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+}
 .header__mobileNav {
   justify-content: space-between;
 }
 .header__mobileNav ul {
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .header__mobileNav ul li {
   display: flex;
   justify-content: center;
+  margin-bottom: 0.75rem;
 }
-.header__mobileNav a {
-  padding-bottom: 1rem;
+.header__mobileNav ul a {
+  padding-bottom: 0.625rem;
   padding-top: 1rem;
+  box-sizing: content-box;
 }
-.header .current {
+.header__mobileNav ul a:hover {
+  transition: all 200ms ease-in-out;
+}
+.header__mobileNav ul .current {
   border-bottom: 0.1875rem solid #f7d891;
   font-weight: 700;
-  padding-bottom: 1.25rem;
+  padding-bottom: 0.625rem;
+}
+.header__mobileNav .gitHubIcon {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
