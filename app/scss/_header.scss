@@ -28,13 +28,14 @@
          height: 2px;
          background-color: $black;
          border-radius: 3.125rem; //50px
-         transition: all 1500ms ease-in-out;
+         transition: all 300ms ease-in-out;
          transform-origin: 3px 1px;
       }
       > span:nth-child(2) {
          margin-left: 5px;
       }
-      //for JS, add when hamburger is clicked
+
+      //Open class for JS, add when hamburger is clicked
       &.open {
          > span:first-child {
             transform: rotate(45deg);
@@ -45,46 +46,62 @@
          > span:last-child {
             transform: rotate(-45deg);
          }
-
       }
    }
 
+   //Nav link general style
+   ul {
+      list-style: none;
 
-   // header links
-   &__links {
+      //nav links general style
+      a {
+         font-family: 'Source Code Pro', monospace;
+         text-transform: uppercase;
+         font-size: 0.75rem; //12px
+         letter-spacing: 0.04rem;
+         color: $black;
+         font-weight: 500;
 
-      ul {
-         list-style: none;
-
-         a {
-            font-family: 'Source Code Pro', monospace;
-            text-transform: uppercase;
-            font-size: 0.75rem; //12px
-            letter-spacing: 0.04rem;
-            color: $black;
-            font-weight: 500;
-            margin-left: 1.875rem; //30px
-            padding-bottom: 1.25rem; //20px
-
-            &:hover {
-               font-weight: 700;
-               border-bottom: 0.1875rem solid $orange;
-               // add transition
-               // add underline
-            }
+         &:hover {
+            font-weight: 700;
+            border-bottom: 0.1875rem solid $orange;
+            // add transition
+            // add underline
          }
       }
+   }
 
+   // Nav github icon general style
+   img {
+      width: 1.125rem; //18px
+   }
+
+   // Navigation for desktop
+   &__links {
+
+      a {
+         margin-left: 1.875rem; //30px
+         padding-bottom: 1.25rem; //20px
+      }
       // github icon
       .gitHubIcon {
          margin-left: 1.875rem;
          padding: 1.25rem 0;
-
-         img {
-            width: 1.125rem; //18px
-         }
       }
    }
+
+   // Navigation for Mobile
+   &__mobileNav {
+
+      a {
+         margin-left: 1.875rem; //30px
+         padding-bottom: 1.25rem; //20px
+      }
+
+   }
+
+
+
    // active link
    .current {
       border-bottom: 0.1875rem solid $orange;

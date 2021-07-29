@@ -101,7 +101,7 @@ button:hover, .button:hover {
   height: 2px;
   background-color: #343434;
   border-radius: 3.125rem;
-  transition: all 1500ms ease-in-out;
+  transition: all 300ms ease-in-out;
   transform-origin: 3px 1px;
 }
 .header__menu > span:nth-child(2) {
@@ -116,29 +116,35 @@ button:hover, .button:hover {
 .header__menu.open > span:last-child {
   transform: rotate(-45deg);
 }
-.header__links ul {
+.header ul {
   list-style: none;
 }
-.header__links ul a {
+.header ul a {
   font-family: "Source Code Pro", monospace;
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.04rem;
   color: #343434;
   font-weight: 500;
-  margin-left: 1.875rem;
-  padding-bottom: 1.25rem;
 }
-.header__links ul a:hover {
+.header ul a:hover {
   font-weight: 700;
   border-bottom: 0.1875rem solid #f7d891;
+}
+.header img {
+  width: 1.125rem;
+}
+.header__links a {
+  margin-left: 1.875rem;
+  padding-bottom: 1.25rem;
 }
 .header__links .gitHubIcon {
   margin-left: 1.875rem;
   padding: 1.25rem 0;
 }
-.header__links .gitHubIcon img {
-  width: 1.125rem;
+.header__mobileNav a {
+  margin-left: 1.875rem;
+  padding-bottom: 1.25rem;
 }
 .header .current {
   border-bottom: 0.1875rem solid #f7d891;
