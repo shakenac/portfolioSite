@@ -19,5 +19,3 @@ btnHamburger.addEventListener('click', function(){
    }
 
 })
-
-//adjust js so we are adding the header class in the header element
