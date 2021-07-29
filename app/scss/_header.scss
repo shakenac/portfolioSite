@@ -3,15 +3,76 @@
 
    /// Hamburger Open Styles
    //Open class for JS, add when hamburger is clicked
-   .open {
-      > span:first-child {
-         transform: rotate(45deg);
+   &.open {
+      .header__menu {
+         > span:first-child {
+            transform: rotate(45deg);
+         }
+         > span:nth-child(2){
+            opacity: 0;
+         }
+         > span:last-child {
+            transform: rotate(-45deg);
+         }
       }
-      > span:nth-child(2){
-         opacity: 0;
-      }
-      > span:last-child {
-         transform: rotate(-45deg);
+
+      // Navigation for Mobile (when open)
+      &__mobileNav {
+         //this will be moved to .active for js
+         //have to add the hamburger menu for when mobile nav is active since it's fixed and overlaps the header
+
+         justify-content: center;
+         align-items: center;
+         overflow: hidden;
+         height: 100vh;
+         width: 100%;
+         position: fixed;
+         // top: 4.875rem; //78px;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         width: 100%;
+         height: 100vh;
+         z-index: 5;
+         background-color: $white;
+
+         .header__mobileInner {
+            padding-top: 1.25rem; //20px
+         }
+
+         ul {
+            padding-left: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            align-items: center;
+
+            li {
+               display: flex;
+               justify-content: center;
+               margin-bottom: 0.75rem; //12px
+            }
+            a {
+               padding-bottom: 0.625rem; //10px
+               padding-top: 1rem;
+               box-sizing: content-box;
+
+               &:not(:first-child) {
+                  // padding-top: 1rem;
+               }
+               &:hover {
+                  transition: all 200ms ease-in-out;
+               }
+            }
+            .current {
+               border-bottom: 0.1875rem solid $orange;
+               font-weight: 700;
+               padding-bottom: 0.625rem; //10px
+            }
+         }
+
+         .gitHubIcon {
+            padding-top: 1rem;
+         }
       }
    }
 
@@ -100,63 +161,8 @@
          padding-bottom: 1.25rem; //20px
       }
    }
-
-   // Navigation for Mobile
    &__mobileNav {
-      //this will be moved to .active for js
-      //have to add the hamburger menu for when mobile nav is active since it's fixed and overlaps the header
-
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      height: 100vh;
-      width: 100%;
-      position: fixed;
-      // top: 4.875rem; //78px;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      width: 100%;
-      height: 100vh;
-      z-index: 5;
-      background-color: $white;
-
-      .header__mobileInner {
-         padding-top: 1.25rem; //20px
-      }
-
-      ul {
-         padding-left: 0;
-         margin-top: 0;
-         margin-bottom: 0;
-         align-items: center;
-
-         li {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 0.75rem; //12px
-         }
-         a {
-            padding-bottom: 0.625rem; //10px
-            padding-top: 1rem;
-            box-sizing: content-box;
-
-            &:not(:first-child) {
-               // padding-top: 1rem;
-            }
-            &:hover {
-               transition: all 200ms ease-in-out;
-            }
-         }
-         .current {
-            border-bottom: 0.1875rem solid $orange;
-            font-weight: 700;
-            padding-bottom: 0.625rem; //10px
-         }
-      }
-
-      .gitHubIcon {
-         padding-top: 1rem;
-      }
+      display: none;
    }
+
 }
