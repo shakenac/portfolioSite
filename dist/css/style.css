@@ -144,8 +144,19 @@ button:hover, .button:hover {
   margin-left: 1.875rem;
   padding: 1.25rem 0;
 }
+.header__mobileNav {
+  justify-content: space-between;
+}
+.header__mobileNav ul {
+  padding-left: 0;
+}
+.header__mobileNav ul li {
+  display: flex;
+  justify-content: center;
+}
 .header__mobileNav a {
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .header .current {
   border-bottom: 0.1875rem solid #f7d891;
