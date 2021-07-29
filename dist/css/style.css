@@ -90,6 +90,15 @@ button:hover, .button:hover {
   }
 }
 
+.header .open > span:first-child {
+  transform: rotate(45deg);
+}
+.header .open > span:nth-child(2) {
+  opacity: 0;
+}
+.header .open > span:last-child {
+  transform: rotate(-45deg);
+}
 .header nav {
   height: 3.125rem;
   padding: 2.8125rem 2.125rem 2.125rem;
@@ -195,16 +204,6 @@ button:hover, .button:hover {
 }
 .header__mobileNav .gitHubIcon {
   padding-top: 1rem;
-}
-
-.open > span:first-child {
-  transform: rotate(45deg);
-}
-.open > span:nth-child(2) {
-  opacity: 0;
-}
-.open > span:last-child {
-  transform: rotate(-45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
