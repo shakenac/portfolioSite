@@ -17,10 +17,10 @@
       }
 
       // Navigation for Mobile (when open)
-      &__mobileNav {
+      .header__mobileNav {
          //this will be moved to .active for js
-         //have to add the hamburger menu for when mobile nav is active since it's fixed and overlaps the header
 
+         display: flex;
          justify-content: center;
          align-items: center;
          overflow: hidden;

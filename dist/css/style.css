@@ -99,7 +99,8 @@ button:hover, .button:hover {
 .header.open .header__menu > span:last-child {
   transform: rotate(-45deg);
 }
-.header.open__mobileNav {
+.header.open .header__mobileNav {
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -114,34 +115,34 @@ button:hover, .button:hover {
   z-index: 5;
   background-color: #ffffff;
 }
-.header.open__mobileNav .header__mobileInner {
+.header.open .header__mobileNav .header__mobileInner {
   padding-top: 1.25rem;
 }
-.header.open__mobileNav ul {
+.header.open .header__mobileNav ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
   align-items: center;
 }
-.header.open__mobileNav ul li {
+.header.open .header__mobileNav ul li {
   display: flex;
   justify-content: center;
   margin-bottom: 0.75rem;
 }
-.header.open__mobileNav ul a {
+.header.open .header__mobileNav ul a {
   padding-bottom: 0.625rem;
   padding-top: 1rem;
   box-sizing: content-box;
 }
-.header.open__mobileNav ul a:hover {
+.header.open .header__mobileNav ul a:hover {
   transition: all 200ms ease-in-out;
 }
-.header.open__mobileNav ul .current {
+.header.open .header__mobileNav ul .current {
   border-bottom: 0.1875rem solid #f7d891;
   font-weight: 700;
   padding-bottom: 0.625rem;
 }
-.header.open__mobileNav .gitHubIcon {
+.header.open .header__mobileNav .gitHubIcon {
   padding-top: 1rem;
 }
 .header nav {
