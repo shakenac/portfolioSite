@@ -34,9 +34,8 @@
       > span:nth-child(2) {
          margin-left: 5px;
       }
-
+      //for JS, add when hamburger is clicked
       &.open {
-
          > span:first-child {
             transform: rotate(45deg);
          }
