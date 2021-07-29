@@ -4,6 +4,7 @@
    /// Hamburger Open Styles
    //Open class for JS, add when hamburger is clicked
    &.open {
+
       .header__menu {
          > span:first-child {
             transform: rotate(45deg);
@@ -18,6 +19,10 @@
 
       // Navigation for Mobile (when open)
       .header__mobileNav {
+
+         //animations
+         animation: fade-in 1000ms ease-in-out normal;
+
          //this will be moved to .active for js
 
          display: flex;
@@ -31,8 +36,6 @@
          top: 0;
          bottom: 0;
          right: 0;
-         width: 100%;
-         height: 100vh;
          z-index: 5;
          background-color: $white;
 

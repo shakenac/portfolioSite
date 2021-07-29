@@ -1,0 +1,14 @@
+@keyframes fade-in {
+   from {
+      display: none;
+      opacity: 0;
+   }
+   // 1% {
+   //    display: flex;
+   //    opacity: 0;
+   // }
+   to {
+      display: flex;
+      opacity: 1;
+   }
+}
