@@ -51,6 +51,9 @@ h3 {
 .flex-ai-c {
   align-items: center;
 }
+.flex-fd-col {
+  flex-direction: column;
+}
 
 button, .button {
   padding: 0.625rem 1.75rem;
@@ -93,7 +96,6 @@ button:hover, .button:hover {
 .header__menu {
   width: 1.875rem;
   height: 0.9375rem;
-  flex-direction: column;
   justify-content: space-between;
 }
 .header__menu > span {
@@ -143,8 +145,7 @@ button:hover, .button:hover {
   padding: 1.25rem 0;
 }
 .header__mobileNav a {
-  margin-left: 1.875rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
 }
 .header .current {
   border-bottom: 0.1875rem solid #f7d891;
