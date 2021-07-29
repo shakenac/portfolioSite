@@ -97,10 +97,13 @@ button:hover, .button:hover {
   justify-content: space-between;
 }
 .header__menu > span {
-  width: 30px;
+  width: 25px;
   height: 2px;
   background-color: #343434;
   border-radius: 3.125rem;
+}
+.header__menu > span:nth-child(2) {
+  margin-left: 5px;
 }
 .header__links ul {
   list-style: none;

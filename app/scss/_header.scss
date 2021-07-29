@@ -14,7 +14,7 @@
       letter-spacing: -0.01rem;
    }
 
-   // mobile menu
+   // header mobile menu
    &__menu {
       width: 1.875rem; //30px
       height: 0.9375rem; //15px
@@ -24,10 +24,13 @@
 
       > span {
          // display: block;
-         width: 30px;
+         width: 25px;
          height: 2px;
          background-color: $black;
          border-radius: 3.125rem; //50px
+      }
+      > span:nth-child(2) {
+         margin-left: 5px;
       }
    }
 
