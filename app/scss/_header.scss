@@ -37,19 +37,6 @@
       > span:nth-child(2) {
          margin-left: 5px;
       }
-
-      //Open class for JS, add when hamburger is clicked
-      &.open {
-         > span:first-child {
-            transform: rotate(45deg);
-         }
-         > span:nth-child(2){
-            opacity: 0;
-         }
-         > span:last-child {
-            transform: rotate(-45deg);
-         }
-      }
    }
 
    //Nav link general style
@@ -155,5 +142,20 @@
       .gitHubIcon {
          padding-top: 1rem;
       }
+   }
+}
+
+// Hamburger Open Styles
+
+//Open class for JS, add when hamburger is clicked
+.open {
+   > span:first-child {
+      transform: rotate(45deg);
+   }
+   > span:nth-child(2){
+      opacity: 0;
+   }
+   > span:last-child {
+      transform: rotate(-45deg);
    }
 }
