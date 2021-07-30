@@ -242,9 +242,8 @@ button:hover, .button:hover {
   padding-bottom: 6.25rem;
 }
 .hero__inner .hero__name h1 {
-  margin: 0 12px 0 0;
+  margin: 0 12px 0 12px;
   position: relative;
-  border: 1px solid red;
   display: inline-block;
 }
 .hero__inner .hero__name h1::after {
@@ -252,11 +251,17 @@ button:hover, .button:hover {
   position: absolute;
   height: 20px;
   background-color: #f7d891;
+  width: 115%;
   top: 37px;
   bottom: 0px;
-  left: 0;
+  left: -12px;
   right: 0;
   z-index: -1;
+}
+@media (min-width: 40em) {
+  .hero__inner .hero__name {
+    display: flex;
+  }
 }
 .hero__inner .hero__job h2 {
   font-size: 14px;
