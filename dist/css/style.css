@@ -237,27 +237,35 @@ button:hover, .button:hover {
   padding-bottom: 1.25rem;
 }
 
+.test {
+  display: inline-block;
+}
+.test h1 {
+  border: 1px solid red;
+}
+
 .hero__inner {
-  padding-top: 6.25rem;
+  padding-top: 9.375rem;
   padding-bottom: 6.25rem;
 }
-.hero__inner h1 {
-  margin: 0;
+.hero__inner .hero__name h1 {
+  margin: 0 12px 0 0;
   position: relative;
+  border: 1px solid red;
+  display: inline-block;
 }
-.hero__inner h1::after {
+.hero__inner .hero__name h1::after {
   content: "";
   position: absolute;
   height: 20px;
   background-color: #f7d891;
-  width: 120%;
   top: 37px;
   bottom: 0px;
-  left: -10px;
-  right: 0px;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
-.hero__inner h2 {
+.hero__inner .hero__job h2 {
   font-size: 14px;
   font-weight: 500;
 }

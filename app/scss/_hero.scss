@@ -1,32 +1,60 @@
+
+.test {
+   h1 {
+      border: 1px solid red;
+   }
+   display: inline-block;
+}
+
+
+
+
 .hero {
 
    &__inner {
 
-      padding-top: 6.25rem; //100px
+      padding-top: 9.375rem; //150px
       padding-bottom: 6.25rem;
 
-      h1 {
-         margin: 0;
-         position: relative;
 
-         &::after {
-            content: "";
-            position: absolute;
-            height: 20px;
-            background-color: #f7d891;
-            width: 120%;
-            top: 37px;
-            bottom: 0px;
-            left: -10px;
-            right: 0px;
-            z-index: -1;
+      .hero__name {
+         // display: inline-block;
+         // flex-direction: column;
+         // display: flex;
+         // flex-direction: column;
+
+         h1 {
+            margin: 0 12px 0 0;
+            position: relative;
+            border: 1px solid red;
+            display: inline-block;
+
+
+            &::after {
+               content: "";
+               position: absolute;
+               height: 20px;
+               background-color: #f7d891;
+               //for desktop width will be 120%
+               //for mobile width will be
+               // width: 100%;
+               top: 37px;
+               bottom: 0px;
+               left: 0;
+               // left: -12px;
+               right: 0;
+               z-index: -1;
+            }
+
          }
-
       }
-      h2 {
-         font-size: 14px;
-         font-weight: 500;
+      .hero__job {
+         h2 {
+            font-size: 14px;
+            font-weight: 500;
+         }
       }
    }
+
 
 }
