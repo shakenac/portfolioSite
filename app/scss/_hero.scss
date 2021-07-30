@@ -1,26 +1,42 @@
 .hero {
 
+   position: relative;
+
+   &::before,
+   &::after {
+      content: '';
+      position: absolute;
+      height: 200px;
+      bottom: -20px;
+      right: 0;
+      left: 0;
+      background: $black;
+      transform: skewY(-9deg);
+      -webkit-transform: skewY(-9deg);
+   }
+
    &__inner {
 
-      padding-top: 9.375rem; //150px
+      padding-top: 200px; //150px
       padding-bottom: 6.25rem;
+      height: 550px;
 
       .hero__name {
 
          h1 {
-            margin: 0 12px 0 12px;
+            margin-left: 12px;
             position: relative;
             display: inline-block;
 
             &::after {
                content: "";
                position: absolute;
-               height: 20px;
+               height: 16px;
                background-color: #f7d891;
                //for desktop width will be 120%
                //for mobile width will be
                width: 115%;
-               top: 37px;
+               top: 27px;
                bottom: 0px;
                // left: 0;
                left: -12px;
@@ -29,10 +45,13 @@
             }
 
          }
-         //media query 
+         //media query
          @include desktop-query {
             display: flex;
          }
+         // @include mobile-query {
+         //    height: auto;
+         // }
       }
       .hero__job {
          h2 {
@@ -41,4 +60,9 @@
          }
       }
    }
+
+
+
+
+
 }

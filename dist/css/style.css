@@ -48,9 +48,10 @@ a, a:visited, a:hover {
 }
 
 h1 {
-  font-size: 3.125rem;
+  font-size: 2.1875rem;
   font-weight: 400;
-  line-height: 4.0625rem;
+  line-height: 45px;
+  margin: 0;
 }
 
 h2 {
@@ -237,22 +238,37 @@ button:hover, .button:hover {
   padding-bottom: 1.25rem;
 }
 
+.hero {
+  position: relative;
+}
+.hero::before, .hero::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  bottom: -20px;
+  right: 0;
+  left: 0;
+  background: #343434;
+  transform: skewY(-9deg);
+  -webkit-transform: skewY(-9deg);
+}
 .hero__inner {
-  padding-top: 9.375rem;
+  padding-top: 200px;
   padding-bottom: 6.25rem;
+  height: 550px;
 }
 .hero__inner .hero__name h1 {
-  margin: 0 12px 0 12px;
+  margin-left: 12px;
   position: relative;
   display: inline-block;
 }
 .hero__inner .hero__name h1::after {
   content: "";
   position: absolute;
-  height: 20px;
+  height: 16px;
   background-color: #f7d891;
   width: 115%;
-  top: 37px;
+  top: 27px;
   bottom: 0px;
   left: -12px;
   right: 0;
