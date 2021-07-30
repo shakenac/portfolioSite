@@ -28,9 +28,19 @@ The designs were created to the following widths:
 
 - Family [Fira Sans](https://fonts.google.com/specimen/Fira+Sans?query=fira)
 - Weights: 300, 400, 500, 600, 700
+   - 300 (Light)
+   - 400 (Regular)
+   - 500 (Medium)
+   - 600 (Semi-bold)
+   - 700 (Bold)
 
 - Family [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source)
 - Weights: 400, 500, 600, 700
+   - 400 (Regular)
+   - 500 (Medium)
+   - 600 (Semi-bold)
+   - 700 (Bold)
+
 
 ### Character Styles
 
