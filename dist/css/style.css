@@ -237,13 +237,6 @@ button:hover, .button:hover {
   padding-bottom: 1.25rem;
 }
 
-.test {
-  display: inline-block;
-}
-.test h1 {
-  border: 1px solid red;
-}
-
 .hero__inner {
   padding-top: 9.375rem;
   padding-bottom: 6.25rem;

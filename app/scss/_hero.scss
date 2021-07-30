@@ -1,14 +1,3 @@
-
-.test {
-   h1 {
-      border: 1px solid red;
-   }
-   display: inline-block;
-}
-
-
-
-
 .hero {
 
    &__inner {
@@ -18,17 +7,12 @@
 
 
       .hero__name {
-         // display: inline-block;
-         // flex-direction: column;
-         // display: flex;
-         // flex-direction: column;
 
          h1 {
             margin: 0 12px 0 0;
             position: relative;
             border: 1px solid red;
             display: inline-block;
-
 
             &::after {
                content: "";
