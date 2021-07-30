@@ -43,13 +43,13 @@
                right: 0;
                z-index: -1;
             }
-
          }
-         //media query
+         //media query for desktop
          @include desktop-query {
             display: flex;
          }
       }
+
       .hero__job {
          h2 {
             font-size: 12px;
