@@ -309,7 +309,7 @@ button:hover, .button:hover {
   transform: skewY(12deg);
 }
 .work__header nav {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 25px;
 }
 .work__header nav h3 {
