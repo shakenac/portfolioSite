@@ -145,7 +145,6 @@ button:hover, .button:hover {
   right: 0;
   z-index: 5;
   background-color: #ffffff;
-  overflow-y: hidden;
 }
 .header__mobileNav .header__mobileInner {
   padding-top: 1.25rem;
@@ -240,20 +239,6 @@ button:hover, .button:hover {
   padding-bottom: 1.25rem;
 }
 
-.hero {
-  position: relative;
-}
-.hero::before, .hero::after {
-  content: "";
-  position: absolute;
-  height: 200px;
-  bottom: -20px;
-  right: 0;
-  left: 0;
-  background: #343434;
-  transform: skewY(-9deg);
-  -webkit-transform: skewY(-9deg);
-}
 .hero__inner {
   padding-top: 200px;
   padding-bottom: 6.25rem;

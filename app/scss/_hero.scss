@@ -1,20 +1,5 @@
 .hero {
 
-   position: relative;
-
-   &::before,
-   &::after {
-      content: '';
-      position: absolute;
-      height: 200px;
-      bottom: -20px;
-      right: 0;
-      left: 0;
-      background: $black;
-      transform: skewY(-9deg);
-      -webkit-transform: skewY(-9deg);
-   }
-
    &__inner {
 
       padding-top: 200px; //150px
@@ -57,9 +42,5 @@
          }
       }
    }
-
-
-
-
 
 }
