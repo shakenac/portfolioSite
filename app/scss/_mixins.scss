@@ -33,4 +33,14 @@ $breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "87.43
 
 
 
-//
+// Media Query
+@mixin mobile-query {
+   @media(max-width: 39.9375em) {
+      @content;
+   }
+}
+@mixin desktop-query {
+   @media(min-width: 40em) {
+      @content;
+   }
+}
