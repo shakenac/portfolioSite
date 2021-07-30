@@ -315,11 +315,27 @@ button:hover, .button:hover {
   padding-top: 10px;
   padding-bottom: 25px;
 }
+@media (max-width: 39.9375em) {
+  .work__header nav {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
 .work__header nav h3 {
   color: #ffffff;
 }
 .work__header nav .work__links {
   padding-left: 0;
+}
+@media (max-width: 39.9375em) {
+  .work__header nav .work__links {
+    flex-direction: column;
+  }
+}
+@media (max-width: 39.9375em) {
+  .work__header nav .work__links li {
+    margin-bottom: 20px;
+  }
 }
 .work__header nav .work__links a {
   font-family: "Source Code Pro", monospace;
@@ -334,6 +350,11 @@ button:hover, .button:hover {
   padding-bottom: 0.25rem;
   border-bottom: 0.125rem solid #f7d891;
   transition: all 200ms ease-in-out;
+}
+@media (max-width: 39.9375em) {
+  .work__header nav .work__links a {
+    margin-left: 0;
+  }
 }
 .work__header .work__current {
   font-weight: 700;
