@@ -12,8 +12,13 @@
       right: 0;
       left: 0;
       background: $black;
+
       //adding slant
       transform: skewY(-7deg);
+         //prefix's so it works on all browsers
+         -webkit-transform: skewY(-7deg); //chrome-safari
+         -moz-transform: skewY(-7deg); //mozilla
+         -ms-transform: skewY(-7deg); //micosoft
    }
 
    &__inner {
