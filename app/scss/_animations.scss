@@ -11,7 +11,7 @@
 
 //helper class
 .fade-in {
-   animation: fade-in 1000ms ease-in-out normal;
+   animation: fade-in 200ms ease-in-out normal;
 }
 
 @keyframes fade-out {
@@ -26,5 +26,5 @@
 }
 
 .fade-out {
-   animation: fade-out 1000ms ease-in-out;
+   animation: fade-out 200ms ease-in-out;
 }
