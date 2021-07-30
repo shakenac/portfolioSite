@@ -239,6 +239,19 @@ button:hover, .button:hover {
   padding-bottom: 1.25rem;
 }
 
+.hero {
+  position: relative;
+}
+.hero::before, .hero::after {
+  content: "";
+  position: absolute;
+  height: 340px;
+  bottom: -200px;
+  right: 0;
+  left: 0;
+  background: #343434;
+  transform: skewY(-7deg);
+}
 .hero__inner {
   padding-top: 200px;
   padding-bottom: 6.25rem;

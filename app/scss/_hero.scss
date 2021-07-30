@@ -1,5 +1,21 @@
 .hero {
 
+   // Hero background
+   position: relative;
+
+   &::before,
+   &::after {
+      content: '';
+      position: absolute;
+      height: 340px;
+      bottom: -200px;
+      right: 0;
+      left: 0;
+      background: $black;
+      //adding slant
+      transform: skewY(-7deg);
+   }
+
    &__inner {
 
       padding-top: 200px; //150px
