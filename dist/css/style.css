@@ -261,7 +261,8 @@ button:hover, .button:hover {
 }
 @media (max-width: 39.9375em) {
   .hero::before, .hero::after {
-    bottom: -150px;
+    bottom: -180px;
+    height: 270px;
   }
 }
 .hero__inner {
@@ -272,7 +273,7 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .hero__inner {
     padding-top: 150px;
-    height: 30rem;
+    height: 430px;
   }
 }
 @media (min-width: 40em) {
