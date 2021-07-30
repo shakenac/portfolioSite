@@ -47,6 +47,10 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 h1 {
   font-size: 2.1875rem;
   font-weight: 400;
@@ -244,11 +248,12 @@ button:hover, .button:hover {
 .hero::before, .hero::after {
   content: "";
   position: absolute;
-  height: 340px;
-  bottom: -200px;
+  height: 300px;
+  bottom: -190px;
   right: 0;
   left: 0;
   background: #343434;
+  z-index: -1;
   transform: skewY(-7deg);
   -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
@@ -289,6 +294,35 @@ button:hover, .button:hover {
 
 .work {
   background-color: #343434;
+}
+.work__header nav {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.work__header nav h3 {
+  color: #ffffff;
+}
+.work__header nav .work__links {
+  padding-left: 0;
+}
+.work__header nav a {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.8125;
+  font-weight: 500;
+  color: #f2f0e7;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+}
+.work__header nav a:hover {
+  font-weight: 700;
+  padding-bottom: 0.25rem;
+  border-bottom: 0.1875rem solid #f7d891;
+  transition: all 200ms ease-in-out;
+}
+.work__header .work__current {
+  font-weight: 700;
+  padding-bottom: 0.25rem;
+  border-bottom: 0.1875rem solid #f7d891;
 }
 
 /*# sourceMappingURL=style.css.map */
