@@ -259,10 +259,26 @@ button:hover, .button:hover {
   -moz-transform: skewY(-7deg);
   -ms-transform: skewY(-7deg);
 }
+@media (max-width: 39.9375em) {
+  .hero::before, .hero::after {
+    bottom: -150px;
+  }
+}
 .hero__inner {
   padding-top: 200px;
   padding-bottom: 6.25rem;
   height: 550px;
+}
+@media (max-width: 39.9375em) {
+  .hero__inner {
+    padding-top: 150px;
+    height: 30rem;
+  }
+}
+@media (min-width: 40em) {
+  .hero__inner .hero__name {
+    display: flex;
+  }
 }
 .hero__inner .hero__name h1 {
   margin-left: 12px;
@@ -280,11 +296,6 @@ button:hover, .button:hover {
   left: -12px;
   right: 0;
   z-index: -1;
-}
-@media (min-width: 40em) {
-  .hero__inner .hero__name {
-    display: flex;
-  }
 }
 .hero__inner .hero__job h2 {
   font-size: 12px;

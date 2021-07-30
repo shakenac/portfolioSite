@@ -16,10 +16,14 @@
 
       //adding slant
       transform: skewY(-7deg);
-         //prefix's so it works on all browsers
-         -webkit-transform: skewY(-7deg); //chrome-safari
-         -moz-transform: skewY(-7deg); //mozilla
-         -ms-transform: skewY(-7deg); //micosoft
+      //prefix's so it works on all browsers
+      -webkit-transform: skewY(-7deg); //chrome-safari
+      -moz-transform: skewY(-7deg); //mozilla
+      -ms-transform: skewY(-7deg); //micosoft
+
+      @include mobile-query {
+         bottom: -150px;
+      }
    }
 
    &__inner {
@@ -28,7 +32,17 @@
       padding-bottom: 6.25rem;
       height: 550px;
 
+      //media query for mobile
+      @include mobile-query {
+         padding-top: 150px;
+         height: 30rem; //480px
+      }
+
       .hero__name {
+         //media query for desktop
+         @include desktop-query {
+            display: flex;
+         }
 
          h1 {
             margin-left: 12px;
@@ -49,10 +63,6 @@
                right: 0;
                z-index: -1;
             }
-         }
-         //media query for desktop
-         @include desktop-query {
-            display: flex;
          }
       }
 
