@@ -8,14 +8,22 @@ btnHamburger.addEventListener('click', function(){
 
    // if header contains open
    if (header.classList.contains('open')) {
-      //remove open
+
+      //remove open -- close hamburger menu
       header.classList.remove('open');
-      mobileNav.classList.remove('open');
+      // mobileNav.classList.remove('open');
+
+      mobileNav.classList.remove('fade-in');
+      mobileNav.classList.add('fade-out');
    }
    else {
-      //else add open
+      //else add open -- open the hamburger menu
       header.classList.add('open');
-      mobileNav.classList.add('open');
+      // mobileNav.classList.add('open');
+
+      mobileNav.classList.remove('fade-out');
+      mobileNav.classList.add('fade-in');
+
    }
 
 })
