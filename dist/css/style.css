@@ -307,6 +307,9 @@ button:hover, .button:hover {
   background-color: #343434;
   z-index: -1;
   transform: skewY(12deg);
+  -webkit-transform: skewY(12deg);
+  -moz-transform: skewY(12deg);
+  -ms-transform: skewY(12deg);
 }
 .work__header nav {
   padding-top: 10px;
@@ -318,24 +321,24 @@ button:hover, .button:hover {
 .work__header nav .work__links {
   padding-left: 0;
 }
-.work__header nav a {
+.work__header nav .work__links a {
   font-family: "Source Code Pro", monospace;
-  font-size: 0.8125;
-  font-weight: 500;
+  font-size: 0.75rem;
   color: #f2f0e7;
   text-transform: uppercase;
   letter-spacing: 0.04rem;
+  margin-left: 20px;
 }
-.work__header nav a:hover {
+.work__header nav .work__links a:hover {
   font-weight: 700;
   padding-bottom: 0.25rem;
-  border-bottom: 0.1875rem solid #f7d891;
+  border-bottom: 0.125rem solid #f7d891;
   transition: all 200ms ease-in-out;
 }
 .work__header .work__current {
   font-weight: 700;
   padding-bottom: 0.25rem;
-  border-bottom: 0.1875rem solid #f7d891;
+  border-bottom: 0.125rem solid #f7d891;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -18,6 +18,9 @@
 
       //adding slant
       transform: skewY(12deg);
+      -webkit-transform: skewY(12deg); //chrome-safari
+      -moz-transform: skewY(12deg); //mozilla
+      -ms-transform: skewY(12deg); //micosoft
    }
 
 
@@ -35,26 +38,20 @@
          // work header links
          .work__links {
             padding-left: 0;
-         }
 
-         // li {
-         //    margin-bottom: 5px;
-         // }
-
-         a {
-            font-family: 'Source Code Pro', monospace;
-            // font-size: 0.75rem; //12px
-            font-size: 0.8125; //13px
-            font-weight: 500;
-            color: $darkCream;
-            text-transform: uppercase;
-            letter-spacing: 0.04rem;
-
-            &:hover {
-               font-weight: 700;
-               padding-bottom: 0.25rem; //4px
-               border-bottom: 0.1875rem solid $orange;
-               transition: all 200ms ease-in-out;
+            a {
+               font-family: 'Source Code Pro', monospace;
+               font-size: 0.75rem; //12px
+               color: $darkCream;
+               text-transform: uppercase;
+               letter-spacing: 0.04rem;
+               margin-left: 20px; //
+               &:hover {
+                  font-weight: 700;
+                  padding-bottom: 0.25rem; //4px
+                  border-bottom: 0.125rem solid $orange;
+                  transition: all 200ms ease-in-out;
+               }
             }
          }
       }
@@ -63,7 +60,7 @@
       .work__current {
          font-weight: 700;
          padding-bottom: 0.25rem; //4px
-         border-bottom: 0.1875rem solid $orange;
+         border-bottom: 0.125rem solid $orange;
       }
 
    }
