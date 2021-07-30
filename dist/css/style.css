@@ -252,7 +252,7 @@ button:hover, .button:hover {
   bottom: -190px;
   right: 0;
   left: 0;
-  background: #343434;
+  background-color: #343434;
   z-index: -1;
   transform: skewY(-7deg);
   -webkit-transform: skewY(-7deg);
@@ -295,6 +295,18 @@ button:hover, .button:hover {
 
 .work {
   background-color: #343434;
+  position: relative;
+}
+.work::before, .work::after {
+  content: "";
+  position: absolute;
+  height: 200px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #343434;
+  z-index: -1;
+  transform: skewY(12deg);
 }
 .work__header nav {
   padding-top: 50px;
