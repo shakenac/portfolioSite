@@ -49,13 +49,10 @@
          @include desktop-query {
             display: flex;
          }
-         // @include mobile-query {
-         //    height: auto;
-         // }
       }
       .hero__job {
          h2 {
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 500;
          }
       }

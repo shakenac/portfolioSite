@@ -16,6 +16,8 @@
       }
       .header__mobileNav {
          visibility: visible;
+         // overflow-y: hidden;
+         // overflow: hidden;
       }
    }
 
@@ -35,6 +37,7 @@
       right: 0;
       z-index: 5;
       background-color: $white;
+      overflow-y: hidden;
 
       .header__mobileInner {
          padding-top: 1.25rem; //20px
