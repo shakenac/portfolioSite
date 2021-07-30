@@ -44,10 +44,11 @@ h3 {
 
 // Spacing
 .container {
-   max-width: 1440px;
+   // max-width: 1440px;
+   max-width: 85.375rem; //1366px
    margin: 0 auto;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
+   padding-left: 2.5rem; //40px
+   padding-right: 2.5rem; //40px
 }
 
 // Flexbox

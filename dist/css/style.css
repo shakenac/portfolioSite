@@ -68,10 +68,10 @@ h3 {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 85.375rem;
   margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .flex {
