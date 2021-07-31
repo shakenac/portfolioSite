@@ -71,6 +71,11 @@ h3 {
   font-size: 1.125rem;
 }
 
+h4 {
+  font-weight: 400;
+  margin: 0;
+}
+
 .container {
   max-width: 85.375rem;
   margin: 0 auto;
