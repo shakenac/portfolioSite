@@ -39,6 +39,11 @@ $breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "87.43
       @content;
    }
 }
+@mixin tablet-query {
+   @media(min-width: 40em) {
+      @content;
+   }
+}
 @mixin desktop-query {
    @media(min-width: 40em) {
       @content;
