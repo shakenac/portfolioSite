@@ -99,6 +99,19 @@ h4 {
   flex-direction: column;
 }
 
+.grid {
+  display: grid;
+}
+.grid-tc-1 {
+  grid-template-columns: 1fr;
+}
+.grid-tc-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-tc-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 button, .button {
   padding: 0.625rem 1.75rem;
   border-radius: 0.25rem;

@@ -81,6 +81,24 @@ h4 {
    }
 }
 
+// Grids
+.grid {
+   display: grid;
+
+   // grid template columns
+   &-tc-1 {
+      grid-template-columns: 1fr;
+   }
+   &-tc-2 {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   &-tc-3 {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+
+
 // Buttons
 button, .button {
    padding: 0.625rem 1.75rem;
