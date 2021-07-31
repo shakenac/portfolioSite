@@ -357,6 +357,7 @@ button:hover, .button:hover {
   .work__header nav {
     flex-direction: column;
     align-items: baseline;
+    padding-bottom: 0;
   }
 }
 .work__header nav h3 {
@@ -371,7 +372,7 @@ button:hover, .button:hover {
   }
 }
 @media (max-width: 39.9375em) {
-  .work__header nav .work__links li {
+  .work__header nav .work__links li:not(:last-child) {
     margin-bottom: 20px;
   }
 }
