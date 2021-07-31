@@ -394,12 +394,17 @@ button:hover, .button:hover {
 }
 .work__portfolio .grid {
   grid-column-gap: 40px;
+  padding-top: 20px;
 }
 .work__portfolio .item__frame {
   background-color: #ffffff;
   padding-top: 30px;
   border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  max-height: 325px;
   position: relative;
+  box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
 }
 .work__portfolio .item__frame::after {
   content: "···";
@@ -410,12 +415,12 @@ button:hover, .button:hover {
   bottom: 0;
   left: 14px;
 }
-.work__portfolio .item__frame .item__image {
+.work__portfolio .item__frame img {
   background-image: url("../../images/1_coupons.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 250px;
+  background-position: bottom;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
