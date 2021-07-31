@@ -391,5 +391,13 @@ button:hover, .button:hover {
   padding-bottom: 0.25rem;
   border-bottom: 0.125rem solid #f7d891;
 }
+.work__portfolio .grid {
+  grid-column-gap: 40px;
+}
+.work__portfolio .item__frame {
+  background-color: #ffffff;
+  padding-top: 30px;
+  border-radius: 8px 8px 0 0;
+}
 
 /*# sourceMappingURL=style.css.map */

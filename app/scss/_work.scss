@@ -90,5 +90,21 @@
 
    /// PORTFOLIO
 
+   &__portfolio {
+      .grid {
+         grid-column-gap: 40px;
+      }
+      .item {
+
+         //img bg frame
+         &__frame {
+            background-color: $white;
+            padding-top: 30px;
+            border-radius: 8px 8px 0 0;
+
+         }
+
+      }
+   }
 
 }
