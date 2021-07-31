@@ -118,6 +118,12 @@
             grid-template-columns: 1fr;
          }
       }
+
+      //for javascript filtering
+      .hide {
+         display: none;
+      }
+      
       .item {
 
          //img bg frame
@@ -138,7 +144,6 @@
             &:hover {
                top: -20px;
             }
-
 
             //img frame dots
             &::after {

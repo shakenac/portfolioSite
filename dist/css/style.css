@@ -418,6 +418,9 @@ button:hover, .button:hover {
     grid-template-columns: 1fr;
   }
 }
+.work__portfolio .hide {
+  display: none;
+}
 .work__portfolio .item__frame {
   position: relative;
   background-color: #ffffff;
