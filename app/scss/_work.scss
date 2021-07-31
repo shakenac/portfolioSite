@@ -101,7 +101,25 @@
             background-color: $white;
             padding-top: 30px;
             border-radius: 8px 8px 0 0;
+            position: relative;
 
+            //img frame dots
+            &::after {
+               content:'···';
+               color: $itemFrameDots;
+               font-size: 65px;
+               position: absolute;
+               top: -20px;
+               bottom: 0;
+               left: 14px;
+            }
+            .item__image {
+               background-image: url("../../images/1_coupons.jpg");
+               background-size: cover;
+               background-repeat: no-repeat;
+               background-position: center center;
+               height: 250px;
+            }
          }
 
       }

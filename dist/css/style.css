@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Created mixins so we can reuse media queries*/
 @keyframes fade-in {
   from {
@@ -398,6 +399,23 @@ button:hover, .button:hover {
   background-color: #ffffff;
   padding-top: 30px;
   border-radius: 8px 8px 0 0;
+  position: relative;
+}
+.work__portfolio .item__frame::after {
+  content: "···";
+  color: #dadada;
+  font-size: 65px;
+  position: absolute;
+  top: -20px;
+  bottom: 0;
+  left: 14px;
+}
+.work__portfolio .item__frame .item__image {
+  background-image: url("../../images/1_coupons.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
