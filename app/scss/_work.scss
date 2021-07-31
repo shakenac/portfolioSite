@@ -116,16 +116,22 @@
 
          //img bg frame
          &__frame {
+            position: relative;
             background-color: $white;
             padding-top: 30px;
             border-radius: 8px 8px 0 0;
             overflow: hidden;
             max-height: 325px;
-            position: relative;
             box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
             -webkit-box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
 
-            //hover state
+            //for hover transition
+            top: 0;
+            transition: top 200ms ease;
+            //img hover state
+            &:hover {
+               top: -20px;
+            }
 
 
             //img frame dots
