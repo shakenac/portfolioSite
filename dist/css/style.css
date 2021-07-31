@@ -74,9 +74,10 @@ h3 {
 
 h4 {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding-bottom: 8px;
+  letter-spacing: 0.1px;
 }
 
 p {
@@ -399,7 +400,7 @@ button:hover, .button:hover {
   font-weight: 700;
   padding-bottom: 0.25rem;
   border-bottom: 0.125rem solid #f7d891;
-  color: white;
+  color: #ffffff;
 }
 .work__portfolio .grid {
   grid-column-gap: 40px;
