@@ -144,10 +144,9 @@
             &::after {
                content:'···';
                color: $itemFrameDots;
-               font-size: 65px;
+               font-size: 45px;
                position: absolute;
-               top: -20px;
-               bottom: 0;
+               top: -15px;
                left: 14px;
             }
             img {

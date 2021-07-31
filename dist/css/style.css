@@ -436,10 +436,9 @@ button:hover, .button:hover {
 .work__portfolio .item__frame::after {
   content: "···";
   color: #dadada;
-  font-size: 65px;
+  font-size: 45px;
   position: absolute;
-  top: -20px;
-  bottom: 0;
+  top: -15px;
   left: 14px;
 }
 .work__portfolio .item__frame img {
