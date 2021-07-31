@@ -102,6 +102,15 @@
          grid-column-gap: 40px;
          padding-top: 20px;
          padding-bottom: 20px;
+         // grid-template-columns: repeat(3, 1fr);
+
+         @include tablet-query {
+            grid-template-columns: repeat(2, 1fr);
+         }
+
+         @include mobile-query {
+            grid-template-columns: 1fr;
+         }
       }
       .item {
 
@@ -115,6 +124,9 @@
             position: relative;
             box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
             -webkit-box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
+
+            //hover state
+
 
             //img frame dots
             &::after {

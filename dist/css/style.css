@@ -302,7 +302,7 @@ button:hover, .button:hover {
     height: 430px;
   }
 }
-@media (min-width: 40em) {
+@media (min-width: 64em) {
   .hero__inner .hero__name {
     display: flex;
   }
@@ -406,6 +406,16 @@ button:hover, .button:hover {
   grid-column-gap: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+@media (max-width: 63.9375em) {
+  .work__portfolio .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 39.9375em) {
+  .work__portfolio .grid {
+    grid-template-columns: 1fr;
+  }
 }
 .work__portfolio .item__frame {
   background-color: #ffffff;
