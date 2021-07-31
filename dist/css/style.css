@@ -403,7 +403,7 @@ button:hover, .button:hover {
   color: #ffffff;
 }
 .work__portfolio .grid {
-  grid-column-gap: 40px;
+  gap: 60px 40px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -449,7 +449,7 @@ button:hover, .button:hover {
   width: 100%;
 }
 .work__portfolio .item__description {
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
   color: #ffffff;
 }
