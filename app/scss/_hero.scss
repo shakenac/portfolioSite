@@ -69,10 +69,14 @@
       }
 
       .hero__job {
+         margin-left: 12px;
+         margin-top: 20px;
+
          h2 {
             font-size: 12px;
             font-weight: 600;
-            margin-top: 20px;
+            margin-top: 5px;
+            margin-bottom: 0;
             text-transform: capitalize;
          }
       }
