@@ -131,10 +131,10 @@
             position: relative;
             background-color: $black;
             // background-color: $white;
-            padding-top: 30px;
+            padding-top: 25px;
             border-radius: 5px 5px 0 0;
             overflow: hidden;
-            max-height: 325px;
+            // max-height: 325px;
             box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
             -webkit-box-shadow: 0px 5px 21px 5px rgba(0,0,0,0.5);
 
@@ -153,8 +153,8 @@
                color: $itemFrameDots;
                font-size: 45px;
                position: absolute;
-               top: -15px;
-               left: 14px;
+               top: -18px;
+               left: 11px;
             }
             img {
                display: block; //makes img container not extend past bottom of img

@@ -429,10 +429,9 @@ button:hover, .button:hover {
 .work__portfolio .item__frame {
   position: relative;
   background-color: #343434;
-  padding-top: 30px;
+  padding-top: 25px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  max-height: 325px;
   box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
   top: 0;
@@ -446,8 +445,8 @@ button:hover, .button:hover {
   color: #5f5f5f;
   font-size: 45px;
   position: absolute;
-  top: -15px;
-  left: 14px;
+  top: -18px;
+  left: 11px;
 }
 .work__portfolio .item__frame img {
   display: block;
