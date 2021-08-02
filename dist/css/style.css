@@ -123,6 +123,10 @@ p {
   grid-template-columns: repeat(6, 1fr);
 }
 
+.grid-inline {
+  display: inline-grid;
+}
+
 button, .button {
   padding: 0.625rem 1.75rem;
   border-radius: 0.25rem;
@@ -480,14 +484,12 @@ button:hover, .button:hover {
   max-width: 600px;
 }
 .process .grid {
-  align-content: center;
   justify-items: center;
-  grid-gap: 10px;
+  grid-gap: 10px 10px;
 }
 @media (max-width: 39.9375em) {
   .process__icons {
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 40px;
   }
 }
 .process__icons p {
