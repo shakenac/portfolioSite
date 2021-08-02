@@ -428,9 +428,9 @@ button:hover, .button:hover {
 }
 .work__portfolio .item__frame {
   position: relative;
-  background-color: #ffffff;
+  background-color: #343434;
   padding-top: 30px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 5px 5px 0 0;
   overflow: hidden;
   max-height: 325px;
   box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
@@ -450,10 +450,7 @@ button:hover, .button:hover {
   left: 14px;
 }
 .work__portfolio .item__frame img {
-  background-image: url("../../images/1_coupons.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  display: block;
   width: 100%;
 }
 .work__portfolio .item__description {
