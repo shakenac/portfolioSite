@@ -119,6 +119,9 @@ p {
 .grid-tc-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid-tc-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
 
 button, .button {
   padding: 0.625rem 1.75rem;
@@ -387,7 +390,7 @@ button:hover, .button:hover {
   color: #f2f0e7;
   text-transform: uppercase;
   letter-spacing: 0.04rem;
-  margin-left: 20px;
+  margin-left: 25px;
   color: #bfbaa3;
 }
 .work__header nav .work__links a:hover {
@@ -409,9 +412,9 @@ button:hover, .button:hover {
   color: #ffffff;
 }
 .work__portfolio .grid {
-  gap: 60px 40px;
+  gap: 50px 40px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
 }
 @media (max-width: 63.9375em) {
   .work__portfolio .grid {
@@ -421,6 +424,8 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .work__portfolio .grid {
     grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+    padding-top: 35px;
   }
 }
 .work__portfolio .hide {
@@ -464,6 +469,15 @@ button:hover, .button:hover {
   font-weight: 500;
   letter-spacing: 0.04rem;
   color: #bfbaa3;
+}
+
+.process {
+  background-color: #ffffff;
+}
+.process p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

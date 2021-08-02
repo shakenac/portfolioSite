@@ -101,6 +101,9 @@ p {
    &-tc-3 {
       grid-template-columns: repeat(3, 1fr);
    }
+   &-tc-6 {
+      grid-template-columns: repeat(6, 1fr);
+   }
 }
 
 

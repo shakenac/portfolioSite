@@ -69,7 +69,7 @@
                color: $darkCream;
                text-transform: uppercase;
                letter-spacing: 0.04rem;
-               margin-left: 20px;
+               margin-left: 25px;
                color: $itemDescriptionP;
                // color: $white;
 
@@ -105,9 +105,9 @@
 
    &__portfolio {
       .grid {
-         gap: 60px 40px;
+         gap: 50px 40px;
          padding-top: 20px;
-         padding-bottom: 20px;
+         padding-bottom: 200px;
          // grid-template-columns: repeat(3, 1fr);
 
          @include tablet-query {
@@ -116,6 +116,8 @@
 
          @include mobile-query {
             grid-template-columns: 1fr;
+            grid-row-gap: 40px;
+            padding-top: 35px;
          }
       }
 
