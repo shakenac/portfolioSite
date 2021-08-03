@@ -40,6 +40,29 @@ h2 {
    text-transform: uppercase;
    letter-spacing: 0.025rem; //.4px
 }
+
+.section-header {
+   display: flex;
+   justify-content: center;
+   h2 {
+      position: relative;
+      display: inline-block;
+
+      &::before {
+         content: "";
+         position: absolute;
+         height: 11px;
+         background-color: #f7d891;
+         width: 110%;
+         top: 10px;
+         bottom: 0;
+         left: -6px;
+         right: 0;
+         z-index: -1;
+      }
+   }
+}
+
 h3 {
    font-weight: 500;
    font-size: 1.125rem; //18px
