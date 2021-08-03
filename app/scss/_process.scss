@@ -16,6 +16,9 @@
       @include mobile-query {
          max-width: 350px;
       }
+      .section-header {
+         justify-content: center;
+      }
    }
    .grid {
       grid-gap: 25px 15px;
