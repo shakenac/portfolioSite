@@ -278,35 +278,14 @@ button:hover, .button:hover {
 .hero {
   position: relative;
 }
-.hero::before, .hero::after {
-  content: "";
-  position: absolute;
-  height: 300px;
-  bottom: -190px;
-  right: 0;
-  left: 0;
-  background-color: #343434;
-  z-index: -1;
-  transform: skewY(-7deg);
-  -webkit-transform: skewY(-7deg);
-  -moz-transform: skewY(-7deg);
-  -ms-transform: skewY(-7deg);
-}
-@media (max-width: 39.9375em) {
-  .hero::before, .hero::after {
-    bottom: -180px;
-    height: 270px;
-  }
-}
 .hero__inner {
   padding-top: 200px;
-  padding-bottom: 6.25rem;
-  height: 550px;
+  padding-bottom: 1.25rem;
 }
 @media (max-width: 39.9375em) {
   .hero__inner {
-    padding-top: 150px;
-    height: 430px;
+    padding-top: 9.375rem;
+    padding-bottom: 2.1875rem;
   }
 }
 @media (min-width: 64em) {
@@ -347,19 +326,11 @@ button:hover, .button:hover {
   background-color: #343434;
   position: relative;
 }
-.work::before, .work::after {
-  content: "";
-  position: absolute;
-  height: 200px;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #343434;
-  z-index: -1;
-  transform: skewY(12deg);
-  -webkit-transform: skewY(12deg);
-  -moz-transform: skewY(12deg);
-  -ms-transform: skewY(12deg);
+.work .workTopBgShape {
+  background-color: #ffffff;
+}
+.work .workTopBgShape .st0 {
+  fill: #343434;
 }
 .work__header nav {
   padding-top: 10px;
