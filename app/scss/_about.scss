@@ -1,6 +1,11 @@
 .about {
 
    .container {
+      max-width: 1080px;
+
+      &.grid {
+         grid-column-gap: 30px;
+      }
 
       .section-header {
          margin-bottom: 20px;
@@ -9,7 +14,7 @@
       // about / contact
       .about-contact {
 
-         grid-row-gap: 60px;
+         grid-row-gap: 40px;
 
          // about
          .about__me {
@@ -18,12 +23,20 @@
             }
          }
 
+         // contact
+         .contact {
+            &__button {
+               margin-top: 35px;
+            }
+         }
+
       }
    }
 
-   .grid {
-      grid-column-gap: 40px;
-   }
+   // .container.grid {
+   //    grid-column-gap: 40px;
+   //    // grid-template-columns: repeat(2, 1fr);
+   // }
 
    img {
       width: 55px;
