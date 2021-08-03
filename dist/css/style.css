@@ -490,6 +490,7 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .process .container {
     max-width: 350px;
+    padding-top: 30px;
   }
 }
 .process .grid {
