@@ -1,4 +1,7 @@
 .about {
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background-color: $gray;
 
    .container {
       max-width: 1080px;
@@ -32,11 +35,6 @@
 
       }
    }
-
-   // .container.grid {
-   //    grid-column-gap: 40px;
-   //    // grid-template-columns: repeat(2, 1fr);
-   // }
 
    img {
       width: 55px;
