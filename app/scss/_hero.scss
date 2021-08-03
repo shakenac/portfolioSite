@@ -3,41 +3,16 @@
    // Hero background
    position: relative;
 
-   &::before,
-   &::after {
-      content: '';
-      position: absolute;
-      height: 300px;
-      bottom: -190px;
-      right: 0;
-      left: 0;
-      background-color: $black;
-      z-index: -1;
-
-      //adding slant
-      transform: skewY(-7deg);
-      //prefix's so it works on all browsers
-      -webkit-transform: skewY(-7deg); //chrome-safari
-      -moz-transform: skewY(-7deg); //mozilla
-      -ms-transform: skewY(-7deg); //micosoft
-
-      @include mobile-query {
-         bottom: -180px;
-         height: 270px;
-      }
-   }
-
    &__inner {
 
       padding-top: 200px; //150px
-      padding-bottom: 6.25rem;
-      height: 550px;
+      padding-bottom: 1.25rem; //20px
+      // height: 550px;
 
       //media query for mobile
       @include mobile-query {
-         padding-top: 150px;
-         // height: 30rem; //480px
-         height: 430px;
+         padding-top: 9.375rem; //150px
+         padding-bottom: 2.1875rem//35px
       }
 
       .hero__name {
