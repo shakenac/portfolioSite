@@ -18,6 +18,11 @@
       }
       .section-header {
          justify-content: center;
+         h2 {
+            &::before {
+               width: 110%;
+            }
+         }
       }
    }
    .grid {
