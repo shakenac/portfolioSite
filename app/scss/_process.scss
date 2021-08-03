@@ -7,25 +7,29 @@
       max-width: 600px;
       position: relative;
       z-index: 1;
+
+      @include mobile-query {
+         max-width: 350px;
+      }
    }
    .grid {
-      grid-gap: 15px 15px;
+      grid-gap: 25px 15px;
       text-align: center;
       margin-top: 35px;
+
+      @include mobile-query {
+         grid-template-columns: repeat(3, 1fr);
+      }
    }
 
    &__icons {
-      @include mobile-query {
-         grid-template-columns: repeat(3, 1fr);
-         // padding-top: 35px;
-      }
 
       p {
          font-family: 'Source Code Pro', monospace;
          font-size: 12px;
          font-weight: 500;
          text-align: center;
-         // color: #c6b153;
+         margin-top: 5px;
       }
       img {
          width: 70px;
