@@ -415,7 +415,7 @@ button:hover, .button:hover {
 .work__portfolio .grid {
   gap: 3.125rem 2.5rem;
   padding-top: 1.25rem;
-  padding-bottom: 6.25rem;
+  padding-bottom: 3.5rem;
 }
 @media (max-width: 63.9375em) {
   .work__portfolio .grid {
