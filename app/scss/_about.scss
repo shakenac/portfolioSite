@@ -1,62 +1,32 @@
 .about {
-   padding-top: 70px;
-   padding-bottom: 90px;
-   // background-color: $gray;
-   position: relative;
-   // z-index: -2;
 
-   .container.grid {
-      grid-column-gap: 100px;
-      // grid-template-columns: 1fr 1fr;
-   }
+   .container {
 
-   .section-header {
-      margin-bottom: 20px;
-   }
-
-   // about-contact
-   &-contact {
-
-      //about me
-      .about__me {
-         max-width: 520px; // REPLACE w/ span
+      .section-header {
          margin-bottom: 20px;
-         p {
-            margin-bottom: 15px;
-         }
       }
 
-      //contact
-      .contact {
+      // about / contact
+      .about-contact {
 
-         &__button {
-            margin-top: 30px;
+         grid-row-gap: 60px;
+
+         // about
+         .about__me {
+            p:first-of-type {
+               margin-bottom: 10px;
+            }
          }
+
       }
    }
 
+   .grid {
+      grid-column-gap: 40px;
+   }
 
-   // Skills
-   .skills {
-
-      .grid {
-         grid-gap: 25px 15px;
-      }
-
-      &__icon {
-         justify-self: center;
-
-         p {
-            font-family: 'Source Code Pro', monospace;
-            font-size: 11px;
-            font-weight: 500;
-            text-align: center;
-            margin-top: 5px;
-         }
-         img {
-            width: 60px;
-         }
-      }
+   img {
+      width: 55px;
    }
 
 }
