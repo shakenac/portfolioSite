@@ -12,27 +12,12 @@
       }
    }
 
-   // &::before,
-   // &::after {
-   //    content: '';
-   //    position: absolute;
-   //    height: 200px;
-   //    top: 0;
-   //    left: 0;
-   //    right: 0;
-   //    background-color: $black;
-   //    z-index: -1;
-   //
-   //    //adding slant
-   //    transform: skewY(12deg);
-   //    -webkit-transform: skewY(12deg); //chrome-safari
-   //    -moz-transform: skewY(12deg); //mozilla
-   //    -ms-transform: skewY(12deg); //micosoft
-   // }
-
 
    /// Work header
    &__header {
+      @include mobile-query {
+         padding-top: 2.1875rem; //35px
+      }
 
       nav {
          padding-top: 10px;

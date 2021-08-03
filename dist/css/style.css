@@ -332,6 +332,11 @@ button:hover, .button:hover {
 .work .workTopBgShape .st0 {
   fill: #343434;
 }
+@media (max-width: 39.9375em) {
+  .work__header {
+    padding-top: 2.1875rem;
+  }
+}
 .work__header nav {
   padding-top: 10px;
   padding-bottom: 25px;
