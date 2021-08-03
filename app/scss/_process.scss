@@ -1,15 +1,22 @@
 .process {
    background-color: $white;
-   padding-top: 50px;
    padding-bottom: 50px;
+
 
    .container {
       max-width: 600px;
    }
-   .grid {
+   .grid-inline {
       // align-content: center;
-      justify-items: center;
+      // justify-items: end;
+      // justify-content: center;
       grid-gap: 10px 10px;
+      text-align: center;
+   }
+
+   h2 {
+      text-align: center;
+      margin-top: 0;
    }
 
    &__icons {
@@ -17,6 +24,7 @@
          grid-template-columns: repeat(3, 1fr);
          // padding-top: 35px;
       }
+
       p {
          font-family: 'Source Code Pro', monospace;
          font-size: 12px;
