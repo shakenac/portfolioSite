@@ -547,6 +547,11 @@ button:hover, .button:hover {
 .about .container .about-contact .contact__button {
   margin-top: 35px;
 }
+.about .container .skills p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px;
+  text-align: center;
+}
 .about img {
   width: 55px;
 }
