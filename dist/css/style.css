@@ -161,6 +161,7 @@ button, .button {
 button:hover, .button:hover {
   background-color: #343434;
   color: #ffffff;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 39.9375em) {
