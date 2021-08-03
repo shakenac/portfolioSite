@@ -1,7 +1,12 @@
 .process {
    background-color: $white;
-   padding-bottom: 50px;
+   padding-top: 10px;
+   padding-bottom: 90px;
 
+   @include mobile-query {
+      padding-top: 25px;
+      padding-bottom: 80px;
+   }
 
    .container {
       max-width: 600px;
@@ -10,7 +15,6 @@
 
       @include mobile-query {
          max-width: 350px;
-         padding-top: 30px;
       }
    }
    .grid {

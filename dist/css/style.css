@@ -480,7 +480,14 @@ button:hover, .button:hover {
 
 .process {
   background-color: #ffffff;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+@media (max-width: 39.9375em) {
+  .process {
+    padding-top: 25px;
+    padding-bottom: 80px;
+  }
 }
 .process .container {
   max-width: 600px;
@@ -490,7 +497,6 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .process .container {
     max-width: 350px;
-    padding-top: 30px;
   }
 }
 .process .grid {
