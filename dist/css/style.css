@@ -338,7 +338,7 @@ button:hover, .button:hover {
   }
 }
 .work__header nav {
-  padding-top: 10px;
+  padding-top: 0.625rem;
   padding-bottom: 25px;
 }
 @media (max-width: 39.9375em) {
@@ -361,7 +361,7 @@ button:hover, .button:hover {
 }
 @media (max-width: 39.9375em) {
   .work__header nav .work__links li:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }
 .work__header nav .work__links a {
@@ -392,9 +392,9 @@ button:hover, .button:hover {
   color: #ffffff;
 }
 .work__portfolio .grid {
-  gap: 50px 40px;
-  padding-top: 20px;
-  padding-bottom: 100px;
+  gap: 3.125rem 2.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 6.25rem;
 }
 @media (max-width: 63.9375em) {
   .work__portfolio .grid {
@@ -404,8 +404,8 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .work__portfolio .grid {
     grid-template-columns: 1fr;
-    grid-row-gap: 40px;
-    padding-top: 35px;
+    grid-row-gap: 2.5rem;
+    padding-top: 2.1875rem;
   }
 }
 .work__portfolio .hide {
@@ -414,8 +414,8 @@ button:hover, .button:hover {
 .work__portfolio .item__frame {
   position: relative;
   background-color: #343434;
-  padding-top: 25px;
-  border-radius: 5px 5px 0 0;
+  padding-top: 1.5625rem;
+  border-radius: 0.3123rem 0.3125rem 0 0;
   overflow: hidden;
   box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 5px 21px 5px rgba(0, 0, 0, 0.5);
@@ -438,14 +438,14 @@ button:hover, .button:hover {
   width: 100%;
 }
 .work__portfolio .item__description {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   text-align: center;
   color: #ffffff;
 }
 .work__portfolio .item__description p {
   text-transform: uppercase;
   font-family: "Source Code Pro", monospace;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.04rem;
   color: #bfbaa3;
