@@ -1,12 +1,38 @@
 .about {
    padding-top: 70px;
    padding-bottom: 90px;
-   background-color: $gray;
+   // background-color: $gray;
    position: relative;
-   z-index: -2;
+   // z-index: -2;
+
+   .container.grid {
+      grid-column-gap: 100px;
+      // grid-template-columns: 1fr 1fr;
+   }
 
    .section-header {
       margin-bottom: 20px;
+   }
+
+   // about-contact
+   &-contact {
+
+      //about me
+      .about__me {
+         max-width: 520px; // REPLACE w/ span
+         margin-bottom: 20px;
+         p {
+            margin-bottom: 15px;
+         }
+      }
+
+      //contact
+      .contact {
+
+         &__button {
+            margin-top: 30px;
+         }
+      }
    }
 
 
@@ -18,6 +44,8 @@
       }
 
       &__icon {
+         justify-self: center;
+
          p {
             font-family: 'Source Code Pro', monospace;
             font-size: 11px;
@@ -25,9 +53,9 @@
             text-align: center;
             margin-top: 5px;
          }
-      }
-      img {
-         width: 60px;
+         img {
+            width: 60px;
+         }
       }
    }
 
