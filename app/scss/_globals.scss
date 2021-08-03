@@ -43,7 +43,9 @@ h2 {
 
 .section-header {
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
+   margin-left: 6px;
+
    h2 {
       position: relative;
       display: inline-block;
