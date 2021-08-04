@@ -536,6 +536,11 @@ button:hover, .button:hover {
   margin-left: 6px;
   margin-bottom: 15px;
 }
+@media (max-width: 39.9375em) {
+  .about .section-header {
+    justify-content: center;
+  }
+}
 .about .section-header h2 {
   display: inline-block;
   position: relative;
@@ -560,8 +565,27 @@ button:hover, .button:hover {
 .about .container.grid {
   grid-column-gap: 60px;
 }
+@media (max-width: 39.9375em) {
+  .about .container.grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 35px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 63.9375em) {
+  .about .container.grid {
+    grid-column-gap: 35px;
+  }
+}
 .about .container .about-contact {
   grid-row-gap: 40px;
+}
+@media (max-width: 39.9375em) {
+  .about .container .about-contact {
+    order: 2;
+    text-align: center;
+  }
 }
 .about .container .about-contact .about__me p:first-of-type {
   margin-bottom: 10px;
@@ -569,9 +593,24 @@ button:hover, .button:hover {
 .about .container .about-contact .contact__button {
   margin-top: 28px;
 }
+@media (max-width: 39.9375em) {
+  .about .container .skills {
+    order: 1;
+  }
+}
 .about .container .skills__grid {
   grid-row-gap: 30px;
   margin-left: -10px;
+}
+@media (max-width: 63.9375em) {
+  .about .container .skills__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 39.9375em) {
+  .about .container .skills__grid {
+    margin: 0 auto;
+  }
 }
 .about .container .skills__grid .skills__icon {
   text-align: center;

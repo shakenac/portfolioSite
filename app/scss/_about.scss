@@ -10,6 +10,10 @@
       margin-left: 6px;
       margin-bottom: 15px;
 
+      @include mobile-query {
+         justify-content: center;
+      }
+
       h2 {
          display: inline-block;
          position: relative;
@@ -36,10 +40,29 @@
 
       &.grid {
          grid-column-gap: 60px;
+
+         @include mobile-query {
+            grid-template-columns: 1fr;
+            grid-row-gap: 35px;
+            max-width: 400px;
+            margin: 0 auto;
+         }
+         @include tablet-query {
+            grid-column-gap: 35px;
+         }
       }
 
       // about / contact
       .about-contact {
+
+
+
+         @include mobile-query {
+            order: 2;
+            text-align: center;
+            // max-width: 350px;
+            // margin: 0 auto;
+         }
 
          grid-row-gap: 40px;
 
@@ -62,9 +85,22 @@
       // Skills
       .skills {
 
+         @include mobile-query {
+            order: 1;
+         }
+
          &__grid {
             grid-row-gap: 30px;
             margin-left: -10px;
+
+            @include tablet-query {
+               grid-template-columns: repeat(4, 1fr);
+               // max-width: 350px;
+            }
+            @include mobile-query {
+
+               margin: 0 auto;
+            }
 
             .skills__icon {
                text-align: center;
