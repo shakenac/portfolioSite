@@ -473,6 +473,7 @@ button:hover, .button:hover {
 .process .section-header h2 {
   position: relative;
   display: inline-block;
+  color: #343434;
 }
 .process .section-header h2::before {
   content: "";
@@ -518,6 +519,7 @@ button:hover, .button:hover {
   font-weight: 600;
   text-align: center;
   margin-top: 5px;
+  color: #343434;
 }
 .process__icons img {
   width: 70px;
@@ -532,11 +534,13 @@ button:hover, .button:hover {
   display: flex;
   justify-content: flex-start;
   margin-left: 6px;
+  margin-bottom: 15px;
 }
 .about .section-header h2 {
   display: inline-block;
   position: relative;
   z-index: 1;
+  color: #343434;
 }
 .about .section-header h2::before {
   content: "";
@@ -554,10 +558,7 @@ button:hover, .button:hover {
   max-width: 1080px;
 }
 .about .container.grid {
-  grid-column-gap: 30px;
-}
-.about .container .section-header {
-  margin-bottom: 20px;
+  grid-column-gap: 60px;
 }
 .about .container .about-contact {
   grid-row-gap: 40px;
@@ -566,10 +567,11 @@ button:hover, .button:hover {
   margin-bottom: 10px;
 }
 .about .container .about-contact .contact__button {
-  margin-top: 35px;
+  margin-top: 28px;
 }
 .about .container .skills__grid {
   grid-row-gap: 30px;
+  margin-left: -10px;
 }
 .about .container .skills__grid .skills__icon {
   text-align: center;

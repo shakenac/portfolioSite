@@ -17,6 +17,7 @@
       h2 {
          position: relative;
          display: inline-block;
+         color: $black;
 
          &::before {
             content: "";
@@ -68,6 +69,7 @@
          font-weight: 600;
          text-align: center;
          margin-top: 5px;
+         color: $black;
       }
       img {
          width: 70px;

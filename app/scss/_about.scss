@@ -8,11 +8,13 @@
       display: flex;
       justify-content: flex-start;
       margin-left: 6px;
+      margin-bottom: 15px;
 
       h2 {
          display: inline-block;
          position: relative;
          z-index: 1;
+         color: $black;
 
          &::before {
             content: "";
@@ -33,11 +35,7 @@
       max-width: 1080px;
 
       &.grid {
-         grid-column-gap: 30px;
-      }
-
-      .section-header {
-         margin-bottom: 20px;
+         grid-column-gap: 60px;
       }
 
       // about / contact
@@ -55,7 +53,7 @@
          // contact
          .contact {
             &__button {
-               margin-top: 35px;
+               margin-top: 28px;
             }
          }
 
@@ -66,6 +64,7 @@
 
          &__grid {
             grid-row-gap: 30px;
+            margin-left: -10px;
 
             .skills__icon {
                text-align: center;
