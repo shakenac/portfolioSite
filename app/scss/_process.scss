@@ -8,6 +8,31 @@
       padding-bottom: 80px;
    }
 
+
+   .section-header {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 6px;
+
+      h2 {
+         position: relative;
+         display: inline-block;
+
+         &::before {
+            content: "";
+            position: absolute;
+            height: 10px;
+            background-color: #f7d891;
+            width: 120%;
+            top: 12px;
+            bottom: 0;
+            left: -6px;
+            right: 0;
+            z-index: -1;
+         }
+      }
+   }
+
    .container {
       max-width: 600px;
       position: relative;
