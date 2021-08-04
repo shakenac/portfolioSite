@@ -39,7 +39,11 @@
       .skills {
 
          &__grid {
+            grid-gap: 25px 12px;
 
+            .skills__icon {
+               text-align: center;
+            }
          }
 
          p {
