@@ -635,4 +635,24 @@ button:hover, .button:hover {
   width: 55px;
 }
 
+.footer {
+  background-color: #343434;
+  color: #ffffff;
+}
+.footer .container {
+  align-items: center;
+}
+.footer__nav {
+  align-items: center;
+}
+.footer__nav ul {
+  padding-left: 0;
+}
+.footer__nav ul li {
+  margin-left: 30px;
+}
+.footer__nav ul li a {
+  color: #f2f0e7;
+}
+
 /*# sourceMappingURL=style.css.map */

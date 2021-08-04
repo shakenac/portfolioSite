@@ -1,0 +1,26 @@
+.footer {
+
+   background-color: $black;
+   color: $white;
+
+   .container {
+      align-items: center;
+   }
+
+
+   &__nav {
+      align-items: center;
+      ul {
+         padding-left: 0;
+
+         li {
+            margin-left: 30px;
+
+            a {
+               color: $darkCream;
+            }
+         }
+      }
+   }
+
+}
