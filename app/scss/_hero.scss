@@ -16,9 +16,16 @@
       }
 
       .hero__name {
-         //media query for desktop
+
+         @include tablet-query {
+            display: flex;
+         }
          @include desktop-query {
             display: flex;
+         }
+         @include mobile-query {
+            display: flex;
+            flex-direction: column;
          }
 
          h1 {

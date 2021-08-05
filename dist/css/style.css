@@ -285,9 +285,20 @@ button:hover, .button:hover {
     padding-bottom: 2.1875rem;
   }
 }
+@media (max-width: 63.9375em) {
+  .hero__inner .hero__name {
+    display: flex;
+  }
+}
 @media (min-width: 64em) {
   .hero__inner .hero__name {
     display: flex;
+  }
+}
+@media (max-width: 39.9375em) {
+  .hero__inner .hero__name {
+    display: flex;
+    flex-direction: column;
   }
 }
 .hero__inner .hero__name h1 {
