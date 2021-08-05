@@ -3,6 +3,7 @@ html {
    font-size: 100%;
    //will include padding in final width of elements
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 // inherit the box-sizing border-box to all elements (using wildcard selector *)
@@ -40,30 +41,6 @@ h2 {
    text-transform: uppercase;
    letter-spacing: 0.025rem; //.4px
 }
-
-// .section-header {
-//    display: flex;
-//    justify-content: flex-start;
-//    margin-left: 6px;
-//
-//    h2 {
-//       position: relative;
-//       display: inline-block;
-//
-//       &::before {
-//          content: "";
-//          position: absolute;
-//          height: 10px;
-//          background-color: #f7d891;
-//          width: 120%;
-//          top: 12px;
-//          bottom: 0;
-//          left: -6px;
-//          right: 0;
-//          z-index: -1;
-//       }
-//    }
-// }
 
 h3 {
    font-weight: 500;

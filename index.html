@@ -15,7 +15,7 @@
    <header class="header">
       <nav class="container flex flex-jc-sb flex-ai-c">
          <!-- logo/name -->
-         <a href="index.html" class="header__logo">Shakena Corbett</a>
+         <a href="index.html" id="home" class="header__logo">Shakena Corbett</a>
 
          <!-- hamburger menu -->
          <a id="btnHamburger" href="#" class="header__menu flex flex-fd-col hide-for-desktop">
@@ -27,10 +27,10 @@
          <!-- nav links for desktop-->
          <div class="header__links flex flex-ai-c hide-for-mobile">
             <ul class="flex flex-ai-c">
-               <li><a href="#" class="current">Home</a></li>
-               <li><a href="#">Work</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="#home" class="current">Home</a></li>
+               <li><a href="#work">Work</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="https://github.com/shakenac" class="gitHubIcon flex flex-ai-c">
                <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
@@ -42,10 +42,10 @@
       <div class="header__mobileNav flex flex-fd-col hide-for-desktop">
          <div class="header__mobileInner">
             <ul class="flex flex-fd-col">
-               <li><a href="#" class="current">Home</a></li>
-               <li><a href="#">Work</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="#home" class="current">Home</a></li>
+               <li><a href="#work">Work</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="https://github.com/shakenac" class="gitHubIcon flex flex-jc-c">
                <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
@@ -79,7 +79,7 @@
 
 
    <!-- WORK -->
-   <section class="work">
+   <section id="work" class="work">
 
       <!-- Work Top Background SVG-->
       <div class="workTopBgShape">
@@ -351,7 +351,7 @@
 
 
    <!-- ABOUT -->
-   <section class="about">
+   <section id="about" class="about">
       <div class="container grid grid-tc-2">
 
          <!-- About me / Contact -->
@@ -366,7 +366,7 @@
             </div>
 
             <!-- Contact -->
-            <div class="contact">
+            <div id="contact" class="contact">
                <div class="section-header">
                   <h2>Contact</h2>
                </div>
@@ -449,11 +449,11 @@
          </div>
          <div class="footer__nav">
             <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Work</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
-               <li><a href="#">GitHub</a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#work">Work</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li><a href="https://github.com/shakenac">GitHub</a></li>
             </ul>
             <!-- <div class="footer__gitHubIcon">
                <a href="#">
