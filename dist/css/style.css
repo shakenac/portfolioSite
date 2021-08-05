@@ -634,30 +634,39 @@ button:hover, .button:hover {
   background-color: #343434;
   color: #bfbaa3;
 }
-.footer img {
-  width: 18px;
-}
 .footer .container {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: left;
+}
+@media (max-width: 39.9375em) {
+  .footer .container {
+    display: block;
+    padding-top: 40px;
+  }
 }
 .footer .container .footer__name-copy {
   display: flex;
+}
+@media (max-width: 39.9375em) {
+  .footer .container .footer__name-copy {
+    display: block;
+  }
 }
 .footer .container .footer__name-copy p:first-child {
   margin-right: 20px;
   font-weight: 500;
 }
 .footer .container .footer__name-copy p {
-  position: relative;
+  font-size: 14px;
 }
-.footer .container .footer__name-copy p span {
-  position: absolute;
-  left: -11px;
-  bottom: -1.5px;
+@media (max-width: 39.9375em) {
+  .footer .container .footer__name-copy p {
+    margin-bottom: 10px;
+  }
 }
 .footer .container .footer__nav {
   display: flex;
@@ -667,16 +676,35 @@ button:hover, .button:hover {
   letter-spacing: 0.5px;
   font-weight: 500;
 }
+@media (max-width: 39.9375em) {
+  .footer .container .footer__nav {
+    display: block;
+  }
+  .footer .container .footer__nav ul {
+    flex-direction: column;
+  }
+}
 .footer .container .footer__nav ul {
   display: flex;
   padding-left: 0;
 }
-.footer .container .footer__nav ul li {
-  margin-left: 15px;
+@media (max-width: 39.9375em) {
+  .footer .container .footer__nav ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 .footer .container .footer__nav ul li a {
   color: #bfbaa3;
   font-weight: 600;
+  padding: 10px;
+}
+@media (max-width: 39.9375em) {
+  .footer .container .footer__nav ul li a {
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .footer .container .footer__nav ul li a:hover {
   color: #ffffff;
@@ -686,6 +714,18 @@ button:hover, .button:hover {
 .footer .container .footer__nav .footer__gitHubIcon {
   margin-left: 15px;
   align-items: center;
+}
+@media (max-width: 39.9375em) {
+  .footer .container .footer__nav .footer__gitHubIcon {
+    margin-left: 0;
+  }
+}
+.footer .container .footer__nav .footer__gitHubIcon a {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.footer .container .footer__nav .footer__gitHubIcon a img {
+  width: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

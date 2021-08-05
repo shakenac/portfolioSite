@@ -3,31 +3,36 @@
    background-color: $black;
    color: #bfbaa3;
 
-
-   img {
-      width: 18px;
-   }
-
    .container {
       padding-top: 20px;
       padding-bottom: 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      text-align: left;
+
+      @include mobile-query {
+         // justify-content: flex-start;
+         // flex-direction: column;
+         display: block;
+         padding-top: 40px;
+      }
 
       .footer__name-copy {
          display: flex;
 
+         @include mobile-query {
+            display: block;
+         }
          p:first-child {
             margin-right: 20px;
             font-weight: 500;
          }
+
          p {
-            position: relative;
-            span {
-               position: absolute;
-               left: -11px;
-               bottom: -1.5px;
+            font-size: 14px;
+            @include mobile-query {
+               margin-bottom: 10px;
             }
          }
       }
@@ -40,15 +45,35 @@
          letter-spacing: .5px;
          font-weight: 500;
 
+         @include mobile-query {
+            display: block;
+            ul {
+               flex-direction: column;
+            }
+         }
+
+
          ul {
             display: flex;
             padding-left: 0;
 
             li {
-               margin-left: 15px;
+               // margin-left: 15px;
+
+               @include mobile-query {
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+               }
                a {
                   color: #bfbaa3;
                   font-weight: 600;
+                  padding: 10px;
+
+                  @include mobile-query {
+                     padding-left: 0;
+                     padding-top: 10px;
+                     padding-bottom: 10px;
+                  }
 
                   &:hover {
                      color: $white;
@@ -62,6 +87,19 @@
          .footer__gitHubIcon {
             margin-left: 15px;
             align-items: center;
+
+            @include mobile-query {
+               margin-left: 0;
+            }
+
+            a {
+               padding-top: 10px;
+               padding-bottom: 15px;
+
+               img {
+                  width: 18px;
+               }
+            }
          }
 
       }
