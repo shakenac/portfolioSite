@@ -1,52 +1,74 @@
 .footer {
 
    background-color: $black;
-   color: $white;
+   color: #bfbaa3;
+
+
+   img {
+      width: 18px;
+   }
 
    .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
       align-items: center;
-   }
+      justify-content: space-between;
 
-   .footer__name-copy {
-      p {
-         align-items: center;
-         margin-right: 20px;
-         color: #bfbaa3;
-      }
-   }
+      .footer__name-copy {
+         display: flex;
 
-
-   &__nav {
-      align-items: center;
-      ul {
-         padding-left: 0;
-
-         li {
-            margin-left: 30px;
-
-            a {
-               font-family: 'Source Code Pro', monospace;
-               font-size: 12px;
-               font-weight: 500;
-               text-transform: uppercase;
-               color: #bfbaa3;
-               letter-spacing: 0.04rem;
-
-               &:hover {
-                  color: $darkCream;
-                  font-weight: 600;
-                  transition: all 200ms ease-in-out;
-               }
+         p:first-child {
+            margin-right: 20px;
+            font-weight: 500;
+         }
+         p {
+            position: relative;
+            span {
+               position: absolute;
+               left: -11px;
+               bottom: -1.5px;
             }
          }
       }
-      .footer__gitHubIcon {
-         margin-left: 30px;
+
+      .footer__nav {
+         display: flex;
          align-items: center;
-         img {
-            width: 14px;
+         font-family: 'Source Code Pro', monospace;
+         text-transform: uppercase;
+         letter-spacing: .5px;
+         font-weight: 500;
+
+         ul {
+            display: flex;
+            padding-left: 0;
+
+            li {
+               margin-left: 15px;
+               a {
+                  color: #bfbaa3;
+                  font-weight: 600;
+
+                  &:hover {
+                     color: $white;
+                     font-weight: 600;
+                     transition: all 200ms ease-in-out;
+                  }
+               }
+            }
+
          }
+         .footer__gitHubIcon {
+            margin-left: 15px;
+            align-items: center;
+         }
+
       }
    }
+
+
+
+
 
 }

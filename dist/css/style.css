@@ -536,11 +536,6 @@ button:hover, .button:hover {
   margin-left: 6px;
   margin-bottom: 15px;
 }
-@media (max-width: 39.9375em) {
-  .about .section-header {
-    justify-content: center;
-  }
-}
 .about .section-header h2 {
   display: inline-block;
   position: relative;
@@ -593,7 +588,7 @@ button:hover, .button:hover {
 @media (max-width: 39.9375em) {
   .about .container .about-contact {
     order: 2;
-    text-align: center;
+    text-align: left;
   }
 }
 .about .container .about-contact .about__me p:first-of-type {
@@ -637,44 +632,60 @@ button:hover, .button:hover {
 
 .footer {
   background-color: #343434;
-  color: #ffffff;
+  color: #bfbaa3;
+}
+.footer img {
+  width: 18px;
 }
 .footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.footer .footer__name-copy p {
-  align-items: center;
+.footer .container .footer__name-copy {
+  display: flex;
+}
+.footer .container .footer__name-copy p:first-child {
   margin-right: 20px;
-  color: #bfbaa3;
+  font-weight: 500;
 }
-.footer__nav {
+.footer .container .footer__name-copy p {
+  position: relative;
+}
+.footer .container .footer__name-copy p span {
+  position: absolute;
+  left: -11px;
+  bottom: -1.5px;
+}
+.footer .container .footer__nav {
+  display: flex;
   align-items: center;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
 }
-.footer__nav ul {
+.footer .container .footer__nav ul {
+  display: flex;
   padding-left: 0;
 }
-.footer__nav ul li {
-  margin-left: 30px;
+.footer .container .footer__nav ul li {
+  margin-left: 15px;
 }
-.footer__nav ul li a {
-  font-family: "Source Code Pro", monospace;
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
+.footer .container .footer__nav ul li a {
   color: #bfbaa3;
-  letter-spacing: 0.04rem;
+  font-weight: 600;
 }
-.footer__nav ul li a:hover {
-  color: #f2f0e7;
+.footer .container .footer__nav ul li a:hover {
+  color: #ffffff;
   font-weight: 600;
   transition: all 200ms ease-in-out;
 }
-.footer__nav .footer__gitHubIcon {
-  margin-left: 30px;
+.footer .container .footer__nav .footer__gitHubIcon {
+  margin-left: 15px;
   align-items: center;
-}
-.footer__nav .footer__gitHubIcon img {
-  width: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
