@@ -7,6 +7,14 @@
       align-items: center;
    }
 
+   .footer__name-copy {
+      p {
+         align-items: center;
+         margin-right: 20px;
+         color: #bfbaa3;
+      }
+   }
+
 
    &__nav {
       align-items: center;
@@ -17,8 +25,26 @@
             margin-left: 30px;
 
             a {
-               color: $darkCream;
+               font-family: 'Source Code Pro', monospace;
+               font-size: 12px;
+               font-weight: 500;
+               text-transform: uppercase;
+               color: #bfbaa3;
+               letter-spacing: 0.04rem;
+
+               &:hover {
+                  color: $darkCream;
+                  font-weight: 600;
+                  transition: all 200ms ease-in-out;
+               }
             }
+         }
+      }
+      .footer__gitHubIcon {
+         margin-left: 30px;
+         align-items: center;
+         img {
+            width: 14px;
          }
       }
    }
