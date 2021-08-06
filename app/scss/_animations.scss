@@ -28,3 +28,15 @@
 .fade-out {
    animation: fade-out 200ms ease-in-out;
 }
+
+// Animation for filtering work items
+@keyframes filterAnimation {
+   from {
+      transform: scale(.5);
+      -ms-tranform: scale(.5);
+   }
+   to {
+      transform: scale(1);
+      -ms-tranform: scale(1);
+   }
+}
