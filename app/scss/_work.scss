@@ -95,7 +95,7 @@
       .grid {
          gap: 3.125rem 2.5rem; //50px 40px
          padding-top: 1.25rem; //20px
-         padding-bottom: 3.5rem; //56px 
+         padding-bottom: 3.5rem; //56px
 
          @include tablet-query {
             grid-template-columns: repeat(2, 1fr);
@@ -114,6 +114,11 @@
       }
 
       .item {
+
+         //Filtering work items
+         .hide {
+            display: none;
+         }
 
          //img bg frame
          &__frame {
