@@ -48,7 +48,25 @@ workLinks.onclick = function(selectedLink) {
       //getting data-type value of selected item and storing in a filtername variable (data-* is considered an attribute)
       let filterType = selectedLink.target.getAttribute('data-type');
 
-      
+      //getting image data-name value
+      //getting image data-type value
+         //looping through each (forEach) array item (filterItem) and adding the function to each item
+      filterItem.forEach(function(item) {
+
+         let filterItemType = item.getAttribute('data-type');
+
+         //if user selected item data-type value is eqaul to workLinks data-type
+            // or user selected item data-type value is equal to 'all'
+         if ((filterItemType == filterType) ||  filterType == 'all') {
+            item.classList.add('show');
+            item.classList.remove('hide');
+         }
+         else {
+            item.classList.add('hide');
+            item.classList.remove('show');
+         }
+      })
+
 
    }
 
