@@ -41,9 +41,14 @@ workLinks.onclick = function(selectedLink) {
 
       // remove the work__current class
       workLinks.querySelector('.work__current').classList.remove('work__current');
-
       //add work__current class to selectedLink (whatever user clicked on)
       selectedLink.target.classList.add('work__current');
+
+
+      //getting data-type value of selected item and storing in a filtername variable (data-* is considered an attribute)
+      let filterType = selectedLink.target.getAttribute('data-type');
+
+      
 
    }
 
