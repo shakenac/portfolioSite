@@ -584,7 +584,7 @@ button:hover, .button:hover {
   z-index: -1;
 }
 .about .container {
-  max-width: 1080px;
+  max-width: 1200px;
 }
 @media (max-width: 63.9375em) {
   .about .container {

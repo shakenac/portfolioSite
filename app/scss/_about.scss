@@ -35,7 +35,8 @@
    }
 
    .container {
-      max-width: 1080px;
+      // max-width: 1080px;
+      max-width: 1200px;
 
       @include tablet-query {
          max-width: 900px;
