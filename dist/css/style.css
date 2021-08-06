@@ -423,6 +423,9 @@ button:hover, .button:hover {
 .work__portfolio .item .hide {
   display: none;
 }
+.work__portfolio .item .show {
+  display: grid;
+}
 .work__portfolio .item__frame {
   position: relative;
   background-color: #343434;

@@ -115,9 +115,12 @@
 
       .item {
 
-         //Filtering work items
+         //Filtering work items (javascript)
          .hide {
             display: none;
+         }
+         .show {
+            display: grid;
          }
 
          //img bg frame
