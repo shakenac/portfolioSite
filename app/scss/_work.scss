@@ -108,21 +108,16 @@
          }
       }
 
-      //for javascript filtering
+      //Filtering work items (javascript)
       .hide {
          display: none;
       }
+      .show {
+         display: grid;
+      }
 
+      
       .item {
-
-         //Filtering work items (javascript)
-         .hide {
-            display: none;
-         }
-         .show {
-            display: grid;
-         }
-
 
          //img bg frame
          &__frame {
