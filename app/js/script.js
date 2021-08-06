@@ -36,9 +36,15 @@ const workLinks = document.querySelector('.work__links');
 const filterItem = document.querySelectorAll(".item");
 
 workLinks.onclick = function(selectedLink) {
-   //when user clicks on work__links ul 
+   //when user clicks on work__links ul
    if (selectedLink.target.classList.contains('filter-link')) {
-      // remove the active class
+
+      // remove the work__current class
       workLinks.querySelector('.work__current').classList.remove('work__current');
+
+      //add work__current class to selectedLink (whatever user clicked on)
+      selectedLink.target.classList.add('work__current');
+
    }
+
 }
