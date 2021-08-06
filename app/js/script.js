@@ -26,6 +26,17 @@ btnHamburger.addEventListener('click', function(){
    }
 })
 
+// when link in mobile nav is clicked, hide mobile nav
+mobileNav.addEventListener('click', function(selectedLink) {
+   if (selectedLink.target.tagName.toLowerCase() == 'a') {
+      header.classList.remove('open');
+      mobileNav.classList.remove('fade-in');
+      mobileNav.classList.add('fade-out');
+      bodyTag.style.overflow = "visible";
+   }
+})
+
+
 
 //// Filtering Portfolio Items
 
