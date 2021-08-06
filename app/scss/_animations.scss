@@ -29,14 +29,35 @@
    animation: fade-out 200ms ease-in-out;
 }
 
-// Animation for filtering work items
-@keyframes filterAnimation {
+
+
+
+// For Filtering
+@keyframes scale-in {
    from {
-      transform: scale(.5);
-      -ms-tranform: scale(.5);
+      transform: scale(0.7);
+      -ms-tranform: scale(0.7);
    }
    to {
       transform: scale(1);
       -ms-tranform: scale(1);
    }
 }
+.scale-in {
+   animation: scale-in 300ms ease;
+}
+
+
+// @keyframes scale-out {
+//    from {
+//       transform: scale(1);
+//       -ms-tranform: scale(1);
+//    }
+//    to {
+//       transform: scale(0);
+//       -ms-tranform: scale(0);
+//    }
+// }
+// .scale-out {
+//    animation: scale-out 500ms ease;
+// }

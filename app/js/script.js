@@ -44,7 +44,6 @@ workLinks.onclick = function(selectedLink) {
       //add work__current class to selectedLink (whatever user clicked on)
       selectedLink.target.classList.add('work__current');
 
-
       //getting data-type value of selected item and storing in a filtername variable (data-* is considered an attribute)
       let filterType = selectedLink.target.getAttribute('data-type');
 
@@ -64,24 +63,22 @@ workLinks.onclick = function(selectedLink) {
             // or user selected item data-type value is equal to 'all'
          if ((filterItemType == filterType) ||  filterType == 'all') {
             item.classList.add('show');
+            item.classList.add('scale-in');
             item.classList.remove('hide');
+            // item.classList.remove('scale-out');
          }
          else if ((filterItemType2 == filterType) || filterType == 'all') {
             item.classList.add('show');
+            item.classList.add('scale-in');
             item.classList.remove('hide');
+            // item.classList.remove('scale-out');
          }
          else {
             item.classList.add('hide');
+            item.classList.add('scale-out');
             item.classList.remove('show');
+            // item.classList.remove('scale-in');
          }
       })
    }
 }
-
-
-
-/* Need to add additional data attribute to HHCS and DMK items. Currently they have data-type for "graphicDesign", they also need data for 'website' */
-
-//1. Add new data* attribute (with different name such as "data-type2")
-//2. Get data-type2 value
-//if data-type2 value is

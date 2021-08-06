@@ -27,16 +27,20 @@
   animation: fade-out 200ms ease-in-out;
 }
 
-@keyframes filterAnimation {
+@keyframes scale-in {
   from {
-    transform: scale(0.5);
-    -ms-tranform: scale(0.5);
+    transform: scale(0.7);
+    -ms-tranform: scale(0.7);
   }
   to {
     transform: scale(1);
     -ms-tranform: scale(1);
   }
 }
+.scale-in {
+  animation: scale-in 300ms ease;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
