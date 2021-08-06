@@ -27,10 +27,18 @@ btnHamburger.addEventListener('click', function(){
 })
 
 
-// Filtering Portfolio Items
+//// Filtering Portfolio Items
 
 // Selecting all required elements
- //links
+//work links ul
+const workLinks = document.querySelector('.work__links');
+ //portfolio items
 const filterItem = document.querySelectorAll(".item");
-//items
-const filterLink = document.querySelectorAll(".filter-link");
+
+workLinks.onclick = function(selectedLink) {
+   //when user clicks on work__links ul 
+   if (selectedLink.target.classList.contains('filter-link')) {
+      // remove the active class
+      workLinks.querySelector('.work__current').classList.remove('work__current');
+   }
+}
