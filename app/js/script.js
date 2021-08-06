@@ -27,24 +27,10 @@ btnHamburger.addEventListener('click', function(){
 })
 
 
-//// Filter portfolio items
+// Filtering Portfolio Items
 
-/*
-When ALL is clicked
-   if All (link) doesnt have .work__current class {
-      add .work__current class
-   }
-      //if all is clicked and already has .work__current class, dont do anything
-
-   //may have to use loop to loop through all links and check if they have the .work__current class
-
-   if Email, Landing Pages, or Websites have .work_current class {
-      remove .work_current class
-   }
-}
-
-When Emails is clicked
-   if
-
-
-*/
+// Selecting all required elements
+ //links
+const filterItem = document.querySelectorAll(".item");
+//items
+const filterLink = document.querySelectorAll(".filter-link");
