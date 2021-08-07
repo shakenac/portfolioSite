@@ -18,10 +18,10 @@
       .hero__name {
 
          @include tablet-query {
-            display: flex;
+            // display: flex;
          }
          @include desktop-query {
-            display: flex;
+            // display: flex;
          }
          @include mobile-query {
             display: flex;
@@ -36,16 +36,29 @@
             &::after {
                content: "";
                position: absolute;
-               height: 0.875rem; //14px
+               // height: 0.875rem; //14px
+               height: 15px;
                background-color: #f7d891;
                //for desktop width will be 120%
                //for mobile width will be
-               width: 121%;
-               top: 24px;
+               // width: 121%;
+               width: 111%;
+               // top: 24px;
+               top: 43px;
                bottom: 0px;
                left: -12px;
                right: 0;
                z-index: -1;
+
+               @include mobile-query {
+
+                  height: 11px;
+                  width: 111%;
+                  top: 35px;
+                  bottom: 0px;
+                  left: -12px;
+                  right: 0;
+               }
             }
          }
       }
