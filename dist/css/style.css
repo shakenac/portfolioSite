@@ -224,7 +224,7 @@ button:hover, .button:hover {
   transition: all 200ms ease-in-out;
 }
 .header__mobileNav ul .current {
-  border-bottom: 0.1875rem solid #f7d891;
+  border-bottom: 0.1875rem solid #ffd168;
   font-weight: 700;
   padding-bottom: 0.625rem;
 }
@@ -239,7 +239,7 @@ button:hover, .button:hover {
 }
 .header__logo {
   color: #343434;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: -0.01rem;
 }
 .header__menu {
@@ -274,7 +274,7 @@ button:hover, .button:hover {
 }
 .header ul a:hover {
   font-weight: 700;
-  border-bottom: 0.1875rem solid #f7d891;
+  border-bottom: 0.1875rem solid #ffd168;
   transition: all 200ms ease-in-out;
 }
 .header img {
@@ -321,7 +321,7 @@ button:hover, .button:hover {
   content: "";
   position: absolute;
   height: 15px;
-  background-color: #f7d891;
+  background-color: #ffd168;
   width: 111%;
   top: 43px;
   bottom: 0px;
@@ -405,7 +405,7 @@ button:hover, .button:hover {
 .work__header nav .work__links a:hover {
   font-weight: 700;
   padding-bottom: 0.25rem;
-  border-bottom: 0.125rem solid #f7d891;
+  border-bottom: 0.125rem solid #ffd168;
   transition: all 200ms ease-in-out;
   color: #ffffff;
 }
@@ -417,7 +417,7 @@ button:hover, .button:hover {
 .work__header nav .work__links .work__current {
   font-weight: 700;
   padding-bottom: 0.25rem;
-  border-bottom: 0.125rem solid #f7d891;
+  border-bottom: 0.125rem solid #ffd168;
   color: #ffffff;
 }
 .work__portfolio .grid {
