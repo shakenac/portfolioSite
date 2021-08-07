@@ -1,5 +1,6 @@
 //once window load
 window.onload = function() {
+   
    /* Mobile Menu */
    const btnHamburger = document.querySelector('#btnHamburger');
    const header = document.querySelector('.header');
