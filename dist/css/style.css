@@ -282,7 +282,7 @@ button:hover, .button:hover {
 }
 .header__links a {
   margin-left: 1.875rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
 }
 .header__links .gitHubIcon {
   margin-left: 1.875rem;
@@ -290,7 +290,7 @@ button:hover, .button:hover {
 }
 .header__links .current {
   font-weight: 700;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
 }
 
 .hero {
@@ -513,10 +513,10 @@ button:hover, .button:hover {
 .process .section-header h2::before {
   content: "";
   position: absolute;
-  height: 10px;
+  height: 8px;
   background-color: #f7d891;
   width: 120%;
-  top: 12px;
+  top: 11px;
   bottom: 0;
   left: -6px;
   right: 0;
@@ -580,10 +580,10 @@ button:hover, .button:hover {
 .about .section-header h2::before {
   content: "";
   position: absolute;
-  height: 10px;
+  height: 8px;
   background-color: #f7d891;
   width: 120%;
-  top: 12px;
+  top: 11px;
   bottom: 0;
   left: -6px;
   right: 0;
