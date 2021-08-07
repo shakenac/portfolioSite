@@ -761,19 +761,30 @@ button:hover, .button:hover {
   width: 18px;
 }
 
-.section-header {
+.work_banner {
+  background: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.work_banner .flex {
+  justify-content: space-between;
+}
+.work_banner button {
+  padding: 0.625rem 2.75rem;
+}
+.work_banner .section-header {
   display: flex;
   justify-content: flex-start;
   margin-left: 6px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
-.section-header h2 {
+.work_banner .section-header h2 {
   display: inline-block;
   position: relative;
   z-index: 1;
   color: #343434;
 }
-.section-header h2::before {
+.work_banner .section-header h2::before {
   content: "";
   position: absolute;
   height: 8px;
@@ -784,6 +795,12 @@ button:hover, .button:hover {
   left: -6px;
   right: 0;
   z-index: -1;
+}
+.work_banner h4 {
+  margin-bottom: 10px;
+}
+.work_banner p {
+  max-width: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
