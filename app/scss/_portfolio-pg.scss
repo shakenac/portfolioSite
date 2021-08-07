@@ -1,0 +1,30 @@
+.section-header {
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 6px;
+   margin-bottom: 15px;
+
+   @include mobile-query {
+      // justify-content: center;
+   }
+
+   h2 {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      color: $black;
+
+      &::before {
+         content: "";
+         position: absolute;
+         height: 8px;
+         background-color: #f7d891;
+         width: 108%;
+         top: 11px;
+         bottom: 0;
+         left: -6px;
+         right: 0;
+         z-index: -1;
+      }
+   }
+}
