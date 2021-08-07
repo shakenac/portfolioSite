@@ -149,11 +149,17 @@
          margin-left: 1.875rem;
          padding: 1.25rem 0;
       }
-      // active nav link
-      .current {
-         // border-bottom: 0.1875rem solid $orange;
-         font-weight: 700;
-         padding-bottom: 1rem;
-      }
+      // // active nav link
+      // .current {
+      //    // border-bottom: 0.1875rem solid $orange;
+      //    font-weight: 700;
+      //    padding-bottom: 1rem;
+      // }
+   }
+   // active nav link
+   .current {
+      // border-bottom: 0.1875rem solid $orange;
+      font-weight: 700;
+      padding-bottom: 1rem;
    }
 }

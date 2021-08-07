@@ -288,7 +288,7 @@ button:hover, .button:hover {
   margin-left: 1.875rem;
   padding: 1.25rem 0;
 }
-.header__links .current {
+.header .current {
   font-weight: 700;
   padding-bottom: 1rem;
 }
