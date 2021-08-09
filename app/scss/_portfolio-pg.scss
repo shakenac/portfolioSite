@@ -1,16 +1,12 @@
 .work_banner {
 
    background: $gray;
-   padding-top: 50px;
-   padding-bottom: 50px;
+   padding-top: 70px;
+   padding-bottom: 60px;
 
    .flex {
       justify-content: space-between;
       flex-wrap: wrap;
-
-      // @include mobile-query {
-      //    flex-direction: column;
-      // }
    }
 
    .section-header {
@@ -24,6 +20,7 @@
          position: relative;
          z-index: 1;
          color: $black;
+         font-size: 13.4px;
 
          &::before {
             content: "";
@@ -31,7 +28,7 @@
             height: 8px;
             background-color: #f7d891;
             width: 108%;
-            top: 11px;
+            top: 9px;
             bottom: 0;
             left: -6px;
             right: 0;
@@ -46,6 +43,8 @@
 
    p {
       max-width: 400px;
+      font-size: 13.5px;
+      line-height: 19px;
    }
    .portfolio-btns {
 
@@ -53,11 +52,14 @@
       .button {
          padding: 0.5rem 1.75rem;
          font-weight: 700;
-         font-size: 13px;
-         margin-left: 10px;
+         font-size: 12px;
+         // margin-bottom: 10px;
+         letter-spacing: 0.3px;
       }
-
+      button:first-child,
+      .button:first-child {
+         margin-bottom: 10px;
+      }
+      flex-direction: column;
    }
-
-
 }
