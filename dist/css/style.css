@@ -763,33 +763,33 @@ button:hover, .button:hover {
   width: 18px;
 }
 
-.work_banner {
+.portfolio_banner {
   background: #f5f5f5;
   padding-top: 70px;
   padding-bottom: 60px;
 }
-.work_banner .flex {
+.portfolio_banner .flex {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.work_banner .section-header {
+.portfolio_banner .section-header {
   display: flex;
   justify-content: flex-start;
   margin-left: 6px;
   margin-bottom: 50px;
 }
-.work_banner .section-header h2 {
+.portfolio_banner .section-header h2 {
   display: inline-block;
   position: relative;
   z-index: 1;
   color: #343434;
   font-size: 13.4px;
 }
-.work_banner .section-header h2::before {
+.portfolio_banner .section-header h2::before {
   content: "";
   position: absolute;
   height: 8px;
-  background-color: #f7d891;
+  background-color: #ffd168;
   width: 108%;
   top: 9px;
   bottom: 0;
@@ -797,26 +797,26 @@ button:hover, .button:hover {
   right: 0;
   z-index: -1;
 }
-.work_banner h4 {
+.portfolio_banner h4 {
   margin-bottom: 10px;
 }
-.work_banner p {
+.portfolio_banner p {
   max-width: 400px;
   font-size: 13.5px;
   line-height: 19px;
 }
-.work_banner .portfolio-btns {
+.portfolio_banner .portfolio-btns {
   flex-direction: column;
 }
-.work_banner .portfolio-btns button,
-.work_banner .portfolio-btns .button {
+.portfolio_banner .portfolio-btns button,
+.portfolio_banner .portfolio-btns .button {
   padding: 0.5rem 1.75rem;
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.3px;
 }
-.work_banner .portfolio-btns button:first-child,
-.work_banner .portfolio-btns .button:first-child {
+.portfolio_banner .portfolio-btns button:first-child,
+.portfolio_banner .portfolio-btns .button:first-child {
   margin-bottom: 10px;
 }
 
