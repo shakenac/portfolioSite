@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/dist/css/style.css">
+   <title>Shakena Corbett / Email Developer</title>
+
+</head>
+<body>
+   <!-- HEADER -->
+   <header class="header">
+      <nav class="container flex flex-jc-sb flex-ai-c">
+         <!-- logo/name -->
+         <a href="index.html" id="home" class="header__logo">Shakena Corbett</a>
+
+         <!-- hamburger menu -->
+         <a id="btnHamburger" href="#" class="header__menu flex flex-fd-col hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+
+         <!-- nav links for desktop-->
+         <div class="header__links flex flex-ai-c hide-for-mobile">
+            <ul class="flex flex-ai-c">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="index.html#work" class="current">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/shakenac" class="gitHubIcon flex flex-ai-c">
+               <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
+            </a>
+         </div>
+      </nav>
+
+      <!-- nav links for mobile -->
+      <div class="header__mobileNav flex flex-fd-col hide-for-desktop">
+         <div class="header__mobileInner">
+            <ul class="flex flex-fd-col">
+               <li><a href="#home">Home</a></li>
+               <li><a href="index.html#work" class="current">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/shakenac" class="gitHubIcon flex flex-jc-c">
+               <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <!-- WORK BANNER -->
+   <section class="portfolio__banner">
+      <div class="container">
+         <div class="section-header">
+            <h2>Graphic Design</h2>
+         </div>
+         <div class="section-header">
+            <h2>Website</h2>
+         </div>
+         <h4>Hand in Hand Counseling Services</h4>
+
+         <div class="flex">
+            <div class="portfolio__graphic-design__info">
+               <p>Developed a todoist newsletter email, based on an existing design using:</p>
+               <ul>
+                  <li><span>+</span>Foundation for Emails (Framework)</li>
+                  <li><span>+</span>HTML</li>
+                  <li><span>+</span>SASS</li>
+               </ul>
+            </div>
+            <div class="portfolio__btns flex">
+               <a href="todoist.html" class="button">Launch Email</a>
+               <a href="https://github.com/shakenac/todoistEmail" class="button">Code</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- EMAIL PORTFOLIO -->
+   <section class="portfolio__area flex">
+
+      <div class="container">
+         <div class="email_img">
+            <img src="/images/emails/emails_mockups_5.png" alt="coupons email">
+         </div>
+      </div>
+
+   </section>
+
+
+   <!-- FOOTER -->
+   <section class="footer">
+      <div class="container">
+         <div class="footer__name-copy">
+            <p>Shakena Corbett</p>
+            <p>&copy;2021</p>
+         </div>
+         <div class="footer__nav">
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#index.html#work">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+               <li><a href="https://github.com/shakenac">GitHub</a></li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+
+   <script src="/app/js/script.js"></script>
+
+</body>
+</html>
