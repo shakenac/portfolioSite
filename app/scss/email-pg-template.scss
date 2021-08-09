@@ -1,3 +1,4 @@
+/// Email Porfolio Banner
 .portfolio__banner {
    background: $gray;
    padding-top: 70px;
@@ -35,6 +36,7 @@
          z-index: 1;
          color: $black;
          font-size: 13.4px;
+         margin-bottom: 0;
 
          &::before {
             content: "";
@@ -58,7 +60,7 @@
       margin-top: 50px;
    }
 
-   //portfolio banner info
+   //Email Banner info
    &__info {
 
       ul {
@@ -96,13 +98,6 @@
 
    }
 
-   //Graphic Design Banner
-   .portfolio__graphic-design__info {
-
-   }
-
-
-
    .portfolio__btns {
       flex-direction: column;
       justify-content: flex-start;
@@ -120,6 +115,12 @@
          margin-bottom: 10px;
       }
    }
+}
+
+
+/// Graphic Design Banner
+.portfolio__graphicdesign__banner {
+
 }
 
 

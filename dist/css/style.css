@@ -804,6 +804,7 @@ button:hover, .button:hover {
   z-index: 1;
   color: #343434;
   font-size: 13.4px;
+  margin-bottom: 0;
 }
 .portfolio__banner .section-header h2::before {
   content: "";
