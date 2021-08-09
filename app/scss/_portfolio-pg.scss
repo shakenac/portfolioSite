@@ -1,19 +1,33 @@
 .portfolio_banner {
-
    background: $gray;
    padding-top: 70px;
-   padding-bottom: 60px;
+   padding-bottom: 50px;
+
+   @include mobile-query {
+      text-align: center;
+   }
+
+   .container {
+      max-width: 900px;
+   }
 
    .flex {
       justify-content: space-between;
       flex-wrap: wrap;
+
+      @include mobile-query {
+         justify-content: center;
+      }
    }
 
    .section-header {
-      display: flex;
       justify-content: flex-start;
       margin-left: 6px;
       margin-bottom: 50px;
+
+      @include mobile-query {
+         justify-content: center;
+      }
 
       h2 {
          display: inline-block;
@@ -45,6 +59,11 @@
       max-width: 400px;
       font-size: 13.5px;
       line-height: 19px;
+
+      @include mobile-query {
+         margin-bottom: 20px;
+         max-width: 100%;
+      }
    }
    .portfolio-btns {
 
@@ -62,4 +81,25 @@
       }
       flex-direction: column;
    }
+}
+
+
+//PORTFOLIO AREA
+.portfolio_area {
+
+   padding-top: 70px;
+   align-items: flex-end;
+
+   .container {
+      max-width: 900px;
+   }
+
+   .email_img {
+      img {
+         width: 100%;
+         // margin: 0 auto;
+         display: block;
+      }
+   }
+
 }
