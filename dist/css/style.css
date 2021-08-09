@@ -768,37 +768,37 @@ button:hover, .button:hover {
   width: 18px;
 }
 
-.portfolio__banner {
+.banner {
   background: #f5f5f5;
   padding-top: 70px;
   padding-bottom: 50px;
 }
 @media (max-width: 39.9375em) {
-  .portfolio__banner {
+  .banner {
     text-align: center;
   }
 }
-.portfolio__banner .container {
+.banner .container {
   max-width: 900px;
 }
-.portfolio__banner .flex {
+.banner .flex {
   justify-content: space-between;
   flex-wrap: wrap;
 }
 @media (max-width: 39.9375em) {
-  .portfolio__banner .flex {
+  .banner .flex {
     justify-content: center;
   }
 }
-.portfolio__banner .section-header {
+.banner .section-header {
   margin-left: 6px;
 }
 @media (max-width: 39.9375em) {
-  .portfolio__banner .section-header {
+  .banner .section-header {
     justify-content: center;
   }
 }
-.portfolio__banner .section-header h2 {
+.banner .section-header h2 {
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -806,7 +806,7 @@ button:hover, .button:hover {
   font-size: 13.4px;
   margin-bottom: 0;
 }
-.portfolio__banner .section-header h2::before {
+.banner .section-header h2::before {
   content: "";
   position: absolute;
   height: 8px;
@@ -818,51 +818,81 @@ button:hover, .button:hover {
   right: 0;
   z-index: -1;
 }
-.portfolio__banner h4 {
+.banner h4 {
+  padding-bottom: 15px;
+}
+
+.banner__info {
   margin-bottom: 10px;
   margin-top: 50px;
 }
-.portfolio__banner__info ul {
-  padding-left: 15px;
-}
 @media (max-width: 39.9375em) {
-  .portfolio__banner__info ul {
+  .banner__info {
     text-align: center;
     padding-left: 0;
   }
 }
-.portfolio__banner__info ul li {
+.banner__info ul {
+  padding-left: 15px;
+}
+.banner__info ul li {
   margin-bottom: 2px;
 }
-.portfolio__banner__info p {
+.banner__info p {
   max-width: 400px;
   font-size: 13.5px;
   line-height: 19px;
 }
 @media (max-width: 39.9375em) {
-  .portfolio__banner__info p {
+  .banner__info p {
     margin-bottom: 20px;
     max-width: 100%;
   }
 }
-.portfolio__banner__info span {
+.banner__info span {
   padding-right: 5px;
   font-weight: 600;
 }
-.portfolio__banner .portfolio__btns {
+.banner__info .portfolio__btns {
   flex-direction: column;
   justify-content: flex-start;
 }
-.portfolio__banner .portfolio__btns button,
-.portfolio__banner .portfolio__btns .button {
+.banner__info .portfolio__btns button,
+.banner__info .portfolio__btns .button {
   padding: 0.5rem 1.75rem;
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.3px;
 }
-.portfolio__banner .portfolio__btns button:first-child,
-.portfolio__banner .portfolio__btns .button:first-child {
+.banner__info .portfolio__btns button:first-child,
+.banner__info .portfolio__btns .button:first-child {
   margin-bottom: 10px;
+}
+
+.graphic-design__banner .multi-headers {
+  justify-content: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 63.9375em) {
+  .graphic-design__banner .multi-headers .section-header {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 63.9375em) {
+  .graphic-design__banner .banner__info {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 63.9375em) {
+  .graphic-design__banner .banner__info p {
+    margin: 0 auto;
+  }
 }
 
 .portfolio__area {
