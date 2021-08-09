@@ -272,6 +272,7 @@ button:hover, .button:hover {
   letter-spacing: 0.04rem;
   color: #343434;
   font-weight: 500;
+  padding-bottom: 1.5625rem;
 }
 .header ul a:hover {
   font-weight: 700;
@@ -289,9 +290,10 @@ button:hover, .button:hover {
   margin-left: 1.875rem;
   padding: 1.25rem 0;
 }
-.header .current {
+.header__links .current {
+  border-bottom: 0.1875rem solid #ffd168;
   font-weight: 700;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5625rem;
 }
 
 .hero {

@@ -123,11 +123,13 @@
          letter-spacing: 0.04rem;
          color: $black;
          font-weight: 500;
+         padding-bottom: 1.5625rem;
 
          &:hover {
             font-weight: 700;
             border-bottom: 0.1875rem solid $orange;
             transition: all 200ms ease-in-out;
+
          }
       }
    }
@@ -149,17 +151,13 @@
          margin-left: 1.875rem;
          padding: 1.25rem 0;
       }
-      // // active nav link
-      // .current {
-      //    // border-bottom: 0.1875rem solid $orange;
-      //    font-weight: 700;
-      //    padding-bottom: 1rem;
-      // }
+
+      // active nav link
+      .current {
+         border-bottom: 0.1875rem solid $orange;
+         font-weight: 700;
+         padding-bottom: 1.5625rem;
+      }
    }
-   // active nav link
-   .current {
-      // border-bottom: 0.1875rem solid $orange;
-      font-weight: 700;
-      padding-bottom: 1rem;
-   }
+
 }
