@@ -1,4 +1,4 @@
-.portfolio_banner {
+.portfolio__banner {
    background: $gray;
    padding-top: 70px;
    padding-bottom: 50px;
@@ -55,17 +55,47 @@
       margin-bottom: 10px;
    }
 
-   p {
-      max-width: 400px;
-      font-size: 13.5px;
-      line-height: 19px;
+   //portfolio banner info
+   &__info {
 
-      @include mobile-query {
-         margin-bottom: 20px;
-         max-width: 100%;
+      ul {
+         padding-left: 15px;
+
+         @include mobile-query {
+            text-align: center;
+            padding-left: 0;
+         }
+         li {
+            margin-bottom: 2px;
+         }
       }
+
+      p {
+         max-width: 400px;
+         font-size: 13.5px;
+         line-height: 19px;
+
+         @include mobile-query {
+            margin-bottom: 20px;
+            max-width: 100%;
+         }
+
+      }
+      span {
+         padding-right: 5px;
+         font-weight: 600;
+
+         // @include mobile-query {
+         //    display: none;
+         // }
+      }
+
    }
-   .portfolio-btns {
+
+
+   .portfolio__btns {
+      flex-direction: column;
+      justify-content: flex-start;
 
       button,
       .button {
@@ -79,13 +109,13 @@
       .button:first-child {
          margin-bottom: 10px;
       }
-      flex-direction: column;
    }
 }
 
 
+
 //PORTFOLIO AREA
-.portfolio_area {
+.portfolio__area {
 
    padding-top: 70px;
    align-items: flex-end;
