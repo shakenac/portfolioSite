@@ -791,9 +791,7 @@ button:hover, .button:hover {
   }
 }
 .portfolio__banner .section-header {
-  justify-content: flex-start;
   margin-left: 6px;
-  margin-bottom: 50px;
 }
 @media (max-width: 39.9375em) {
   .portfolio__banner .section-header {
@@ -821,6 +819,7 @@ button:hover, .button:hover {
 }
 .portfolio__banner h4 {
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 .portfolio__banner__info ul {
   padding-left: 15px;
