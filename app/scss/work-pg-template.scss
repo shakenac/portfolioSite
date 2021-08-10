@@ -188,14 +188,65 @@
          margin-bottom: 35px;
       }
 
-      .branding__logo {
+      &__logo {
          background-color: $gray;
          justify-content: center;
+         margin-bottom: 50px;
 
          img {
             width: 275px;
             padding: 70px 10px;
          }
       }
+
+      &__pallete {
+         // justify-content: space-between;
+         // flex-wrap: wrap;
+         justify-items: center;
+         grid-template-columns: repeat(4, 1fr);
+         gap: 30px;
+         max-width: 675px;
+         margin: 0 auto;
+
+         @include mobile-query {
+            grid-template-columns: repeat(2, 2fr);
+            grid-column-gap: 0;
+            max-width: 375px;
+         }
+
+         .pallete {
+
+            .color {
+               width: 150px;
+               height: 150px;
+               border-radius: 50%;
+               margin-bottom: 20px;
+            }
+
+            .p1 {
+               background-color: #363434;
+            }
+            .p2 {
+               background-color: #267282;
+            }
+            .p3 {
+               background-color: #d99a45;
+            }
+            .p4 {
+               background-color: #f8f7f2;
+            }
+
+            p {
+               font-family: 'Source Code Pro', monospace;
+               font-size: 11px;
+               text-align: center;
+            }
+         }
+
+      }
    }
+
+
+
+
 }
