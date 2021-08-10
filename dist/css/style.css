@@ -805,6 +805,7 @@ button:hover, .button:hover {
   color: #343434;
   font-size: 13.4px;
   margin-bottom: 0;
+  margin-top: 5px;
 }
 .banner .section-header h2::before {
   content: "";
@@ -837,10 +838,11 @@ button:hover, .button:hover {
 }
 .banner__info ul li {
   margin-bottom: 2px;
+  font-size: 12.5px;
 }
 .banner__info p {
   max-width: 400px;
-  font-size: 13.5px;
+  font-size: 12.5px;
   line-height: 19px;
 }
 @media (max-width: 39.9375em) {
@@ -880,6 +882,10 @@ button:hover, .button:hover {
     padding-left: 0;
     justify-content: center;
   }
+}
+.graphic-design__banner .multi-headers .section-header h2::before {
+  width: 112%;
+  left: -6px;
 }
 @media (max-width: 63.9375em) {
   .graphic-design__banner .banner__info {
