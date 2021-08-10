@@ -102,6 +102,12 @@ h4 {
   color: #343434;
 }
 
+h5 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 12px;
+}
+
 p {
   margin: 0;
 }
@@ -911,6 +917,19 @@ button:hover, .button:hover {
 .portfolio__area .email_img img {
   width: 100%;
   display: block;
+}
+
+.graphic-design__portfolio .branding h5 {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+.graphic-design__portfolio .branding .branding__logo {
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+.graphic-design__portfolio .branding .branding__logo img {
+  width: 275px;
+  padding: 70px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

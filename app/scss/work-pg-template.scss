@@ -176,5 +176,26 @@
          display: block;
       }
    }
+}
 
+// Graphic Design Portfolio
+.graphic-design__portfolio {
+
+   .branding {
+
+      h5 {
+         margin-top: 0;
+         margin-bottom: 35px;
+      }
+
+      .branding__logo {
+         background-color: $gray;
+         justify-content: center;
+
+         img {
+            width: 275px;
+            padding: 70px 10px;
+         }
+      }
+   }
 }
