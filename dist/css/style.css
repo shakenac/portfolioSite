@@ -939,6 +939,7 @@ button:hover, .button:hover {
   gap: 30px;
   max-width: 675px;
   margin: 0 auto;
+  margin-bottom: 70px;
 }
 @media (max-width: 39.9375em) {
   .graphic-design__portfolio .branding__pallete {
@@ -969,6 +970,14 @@ button:hover, .button:hover {
   font-family: "Source Code Pro", monospace;
   font-size: 11px;
   text-align: center;
+}
+.graphic-design__portfolio .branding__fonts {
+  display: flex;
+  justify-content: center;
+}
+.graphic-design__portfolio .branding__fonts img {
+  width: 200px;
+  margin: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

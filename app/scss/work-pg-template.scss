@@ -199,14 +199,17 @@
          }
       }
 
+      // pallete
       &__pallete {
          // justify-content: space-between;
          // flex-wrap: wrap;
          justify-items: center;
          grid-template-columns: repeat(4, 1fr);
+         // grid-auto-flow: column;
          gap: 30px;
          max-width: 675px;
          margin: 0 auto;
+         margin-bottom: 70px;
 
          @include mobile-query {
             grid-template-columns: repeat(2, 2fr);
@@ -243,6 +246,17 @@
             }
          }
 
+      }
+
+      // fonts
+      &__fonts {
+         display: flex;
+         justify-content: center;
+
+         img {
+            width: 200px;
+            margin: 0 20px;
+         }
       }
    }
 
