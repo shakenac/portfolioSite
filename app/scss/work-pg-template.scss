@@ -292,66 +292,6 @@
       }
    }
 
-   /// DMK Properties
-   .dmk-properties {
-
-      // logo
-      .branding__logo-2 {
-         background-color: $gray;
-         margin-bottom: 50px;
-      }
-      .branding__logo__inner {
-         // display: flex;
-         // flex-wrap: wrap;
-         // grid-auto-flow: column;
-         display: grid;
-         justify-items: center;
-         grid-template-columns: repeat(2, 1fr);
-         justify-content: center;
-         gap: 40px;
-
-         img:first-child {
-            width: 190px;
-         }
-
-         img {
-            width: 240px;
-            padding: 70px 10px;
-            align-self: center;
-         }
-         @include mobile-query {
-            grid-template-columns: 1fr;
-         }
-      }
-
-      // pallete
-      .pallete {
-         .p1 {
-            background-color: #363434;
-         }
-         .p2 {
-            background-color: #f8f7f2;
-         }
-         .p3 {
-            background-color: #efe0a4;
-         }
-         .p4 {
-            background-color: #77a6ac;
-         }
-      }
-
-      //fonts
-      .branding__fonts {
-         grid-row-gap: 40px;
-         
-         img:first-child {
-            @include mobile-query {
-               margin-bottom: 0;
-            }
-         }
-      }
-
-   }
 
    .portfolio__images {
       padding-top: 70px;
@@ -397,5 +337,77 @@
    .leaflet {
       padding-bottom: 50px;
    }
+
+
+   /// DMK Properties
+   .dmk-properties {
+
+      // logo
+      .branding__logo-2 {
+         background-color: $gray;
+         margin-bottom: 50px;
+      }
+      .branding__logo__inner {
+         // display: flex;
+         // flex-wrap: wrap;
+         // grid-auto-flow: column;
+         display: grid;
+         justify-items: center;
+         grid-template-columns: repeat(2, 1fr);
+         justify-content: center;
+         gap: 40px;
+
+         img:first-child {
+            width: 190px;
+         }
+
+         img {
+            width: 240px;
+            padding: 70px 10px;
+            align-self: center;
+         }
+         @include mobile-query {
+            grid-template-columns: 1fr;
+            gap: 0;
+         }
+      }
+
+      // pallete
+      .pallete {
+         .p1 {
+            background-color: #363434;
+         }
+         .p2 {
+            background-color: #f8f7f2;
+         }
+         .p3 {
+            background-color: #efe0a4;
+         }
+         .p4 {
+            background-color: #77a6ac;
+         }
+      }
+
+      //fonts
+      .branding__fonts {
+         grid-row-gap: 40px;
+
+         img:first-child {
+            @include mobile-query {
+               margin-bottom: 0;
+            }
+         }
+      }
+
+   }
+
+   /// Wimlu
+   .wilmu {
+      background-color: $white;
+      padding-top: 0;
+
+   }
+
+
 
 }
