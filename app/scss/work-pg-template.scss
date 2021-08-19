@@ -182,6 +182,7 @@
 .graphic-design__portfolio {
 
    .branding {
+      margin-bottom: 70px;
 
       h5 {
          margin-top: 0;
@@ -260,7 +261,39 @@
       }
    }
 
+   .portfolio__images {
+      padding-top: 70px;
+      background-color: $gray;
 
+      .portfolio__info {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         margin-bottom: 30px;
+
+         h5 {
+            margin: 0;
+         }
+
+         .website__btns {
+            display: flex;
+            a {
+               margin-left: 20px;
+            }
+         }
+      }
+   }
+
+   .full-image {
+
+      max-height: 700px;
+      overflow: hidden;
+
+      img {
+         width: 100%;
+         border-radius: 3px;
+      }
+   }
 
 
 }
