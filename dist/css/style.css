@@ -966,7 +966,7 @@ button:hover, .button:hover {
   margin: 0 auto;
   margin-bottom: 70px;
 }
-@media (max-width: 63.9375em) {
+@media (max-width: 39.9375em) {
   .graphic-design__portfolio .branding__pallete {
     grid-template-columns: repeat(2, 2fr);
     max-width: 375px;
@@ -999,6 +999,7 @@ button:hover, .button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 .graphic-design__portfolio .branding__fonts img {
   width: 180px;
@@ -1111,6 +1112,51 @@ button:hover, .button:hover {
 }
 .graphic-design__portfolio .rosen-pub .ads .maxheightauto {
   max-height: 100%;
+}
+.graphic-design__portfolio .tchh .branding__logo-2 {
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+}
+.graphic-design__portfolio .tchh .branding__logo__inner {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 40px;
+}
+.graphic-design__portfolio .tchh .branding__logo__inner img:first-child {
+  width: 170px;
+}
+.graphic-design__portfolio .tchh .branding__logo__inner img {
+  width: 240px;
+  padding: 70px 10px;
+  align-self: center;
+}
+@media (max-width: 39.9375em) {
+  .graphic-design__portfolio .tchh .branding__logo__inner {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+.graphic-design__portfolio .tchh .pallete .p1 {
+  background-color: #585b5c;
+}
+.graphic-design__portfolio .tchh .pallete .p2 {
+  background-color: #b3d5d9;
+}
+.graphic-design__portfolio .tchh .pallete .p3 {
+  background-color: #f8f8f2;
+}
+.graphic-design__portfolio .tchh .pallete .p4 {
+  background-color: #c0cdab;
+}
+.graphic-design__portfolio .tchh .branding__fonts {
+  grid-row-gap: 40px;
+}
+@media (max-width: 39.9375em) {
+  .graphic-design__portfolio .tchh .branding__fonts img:first-child {
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

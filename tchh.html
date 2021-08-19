@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/dist/css/style.css">
+   <title>Shakena Corbett / Email Developer</title>
+
+</head>
+<body>
+   <!-- HEADER -->
+   <header class="header">
+      <nav class="container flex flex-jc-sb flex-ai-c">
+         <!-- logo/name -->
+         <a href="index.html" id="home" class="header__logo">Shakena Corbett</a>
+
+         <!-- hamburger menu -->
+         <a id="btnHamburger" href="#" class="header__menu flex flex-fd-col hide-for-desktop">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+
+         <!-- nav links for desktop-->
+         <div class="header__links flex flex-ai-c hide-for-mobile">
+            <ul class="flex flex-ai-c">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="index.html#work" class="current">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/shakenac" class="gitHubIcon flex flex-ai-c">
+               <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
+            </a>
+         </div>
+      </nav>
+
+      <!-- nav links for mobile -->
+      <div class="header__mobileNav flex flex-fd-col hide-for-desktop">
+         <div class="header__mobileInner">
+            <ul class="flex flex-fd-col">
+               <li><a href="#home">Home</a></li>
+               <li><a href="index.html#work" class="current">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/shakenac" class="gitHubIcon flex flex-jc-c">
+               <img src="images/GitHub-Mark-64px.png" alt="GitHub Icon">
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <!-- WORK BANNER -->
+   <section class="graphic-design__banner banner">
+      <div class="container">
+
+         <!-- Section header -->
+         <div class="multi-headers flex">
+            <div class="section-header">
+               <h2>Graphic Design</h2>
+            </div>
+         </div>
+
+         <!-- Banner info -->
+         <div class="banner__info flex">
+
+            <!-- title -->
+            <div class="item-title">
+               <h4>Turning Corners Hand in Hand</h4>
+            </div>
+
+            <!-- title info -->
+            <div class="item-info">
+               <p>Turning Corners Hand In Hand was established to reach more people combining resources with diverse professionals to meet the needs of diverse populations in various settings</p>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- Graphic Design PORTFOLIO -->
+   <section class="portfolio__area graphic-design__portfolio">
+
+
+      <!-- Branding -->
+      <div class="branding tchh">
+         <div class="container">
+            <h5>Branding</h5>
+
+            <!-- logo -->
+            <div class="branding__logo-2">
+               <div class="branding__logo__inner">
+                  <img src="images/tchh/tchh_logo_1.png" alt="Dmk Logo">
+                  <img src="images/tchh/tchh_logo_2.png" alt="Dmk Logo">
+               </div>
+            </div>
+
+            <!-- pallete -->
+            <div class="branding__pallete grid">
+               <div class="pallete">
+                  <div class="color p1"></div>
+                  <p>#585b5c</p>
+               </div>
+               <div class="pallete">
+                  <div class="color p2"></div>
+                  <p>#b3d5d9</p>
+               </div>
+               <div class="pallete">
+                  <div class="color p3"></div>
+                  <p>#f8f8f2</p>
+               </div>
+               <div class="pallete">
+                  <div class="color p4"></div>
+                  <p>#c0cdab</p>
+               </div>
+            </div>
+
+            <!-- fonts -->
+            <div class="branding__fonts">
+               <img src="images/tchh/tchh_fonts_1.png" alt="">
+               <img src="images/tchh/tchh_fonts_2.png" alt="">
+               <img src="images/tchh/tchh_fonts_3.png" alt="">
+            </div>
+
+         </div>
+      </div>
+
+      <!-- Portolio images -->
+      <div class="portfolio__images">
+         <div class="container">
+
+
+
+            <div class="portfolio-section brochure">
+               <h5>Brochure</h5>
+               <div class="full-image">
+                  <img src="images/tchh/tchh_brochure_2.jpg" alt="TCHH Brochure">
+               </div>
+               <div class="full-image">
+                  <img src="images/tchh/tchh_brochure_1.jpg" alt="TCHH Brochure">
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+   </section>
+
+
+   <!-- FOOTER -->
+   <section class="footer">
+      <div class="container">
+         <div class="footer__name-copy">
+            <p>Shakena Corbett</p>
+            <p>&copy;2021</p>
+         </div>
+         <div class="footer__nav">
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#index.html#work">Work</a></li>
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="#index.html#contact">Contact</a></li>
+               <li><a href="https://github.com/shakenac">GitHub</a></li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+
+   <script src="/app/js/script.js"></script>
+
+</body>
+</html>
