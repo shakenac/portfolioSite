@@ -1093,5 +1093,24 @@ button:hover, .button:hover {
   background-color: #ffffff;
   padding-top: 0;
 }
+.graphic-design__portfolio .rosen-pub .catalog-covers .portfolio-section-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+@media (max-width: 63.9375em) {
+  .graphic-design__portfolio .rosen-pub .catalog-covers .portfolio-section-2col {
+    grid-template-columns: 1fr;
+  }
+}
+.graphic-design__portfolio .rosen-pub .catalog-covers .portfolio-section-2col .full-image {
+  padding-bottom: 0;
+}
+.graphic-design__portfolio .rosen-pub .ads {
+  padding-top: 20px;
+}
+.graphic-design__portfolio .rosen-pub .ads .maxheightauto {
+  max-height: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

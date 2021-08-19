@@ -409,9 +409,32 @@
 
    /// Rosen Publishing
    .rosen-pub {
-
       background-color: $white;
       padding-top: 0;
+
+      .catalog-covers {
+
+         .portfolio-section-2col {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+
+            @include tablet-query {
+               grid-template-columns: 1fr;
+            }
+
+            .full-image {
+               padding-bottom: 0;
+            }
+         }
+      }
+
+      .ads {
+         padding-top: 20px;
+         .maxheightauto {
+            max-height: 100%;
+         }
+      }
 
    }
 
