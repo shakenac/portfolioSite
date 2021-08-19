@@ -4,8 +4,8 @@
    color: #bfbaa3;
 
    .container {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -28,7 +28,7 @@
          }
 
          p {
-            font-size: 14px;
+            font-size: 11px;
             // line-height: 19px; //Find out why its not working
 
             @include mobile-query {
@@ -68,6 +68,7 @@
                   color: #bfbaa3;
                   font-weight: 600;
                   padding: 10px;
+                  font-size: 11px;
 
                   @include mobile-query {
                      padding-left: 0;

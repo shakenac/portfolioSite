@@ -682,8 +682,8 @@ button:hover, .button:hover {
   color: #bfbaa3;
 }
 .footer .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -708,7 +708,7 @@ button:hover, .button:hover {
   font-weight: 500;
 }
 .footer .container .footer__name-copy p {
-  font-size: 14px;
+  font-size: 11px;
 }
 @media (max-width: 39.9375em) {
   .footer .container .footer__name-copy p {
@@ -745,6 +745,7 @@ button:hover, .button:hover {
   color: #bfbaa3;
   font-weight: 600;
   padding: 10px;
+  font-size: 11px;
 }
 @media (max-width: 39.9375em) {
   .footer .container .footer__nav ul li a {
