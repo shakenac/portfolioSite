@@ -235,7 +235,7 @@ button:hover, .button:hover {
   letter-spacing: 0.04rem;
   color: #343434;
   font-weight: 500;
-  padding-bottom: 1.5625rem;
+  padding-bottom: 1.5rem;
 }
 .header ul a:hover {
   font-weight: 700;
@@ -256,7 +256,7 @@ button:hover, .button:hover {
 .header__links .current {
   border-bottom: 0.1875rem solid #ffd168;
   font-weight: 700;
-  padding-bottom: 1.5625rem;
+  padding-bottom: 1.5rem;
 }
 .header__mobileNav {
   visibility: hidden;
