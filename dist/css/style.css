@@ -801,9 +801,10 @@ button:hover, .button:hover {
 .banner .section-header {
   margin-left: 6px;
 }
-@media (max-width: 39.9375em) {
+@media (max-width: 63.9375em) {
   .banner .section-header {
-    justify-content: center;
+    text-align: center;
+    margin-left: 0;
   }
 }
 .banner .section-header h2 {
@@ -908,13 +909,11 @@ button:hover, .button:hover {
 @media (max-width: 63.9375em) {
   .graphic-design__banner .multi-headers .section-header {
     flex-direction: column;
-    text-align: center;
     padding-left: 0;
-    justify-content: center;
   }
 }
 .graphic-design__banner .multi-headers .section-header h2::before {
-  width: 115%;
+  width: 113%;
   left: -6px;
 }
 @media (max-width: 63.9375em) {
@@ -962,21 +961,20 @@ button:hover, .button:hover {
 .graphic-design__portfolio .branding__pallete {
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  max-width: 675px;
+  gap: 20px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
 @media (max-width: 63.9375em) {
   .graphic-design__portfolio .branding__pallete {
     grid-template-columns: repeat(2, 2fr);
-    grid-column-gap: 0;
     max-width: 375px;
   }
 }
 .graphic-design__portfolio .branding__pallete .pallete .color {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -1003,8 +1001,8 @@ button:hover, .button:hover {
   justify-content: center;
 }
 .graphic-design__portfolio .branding__fonts img {
-  width: 200px;
-  margin: 0 20px;
+  width: 180px;
+  margin: 0 25px;
 }
 @media (max-width: 39.9375em) {
   .graphic-design__portfolio .branding__fonts img:first-child {
