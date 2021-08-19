@@ -237,7 +237,7 @@
          margin: 0 auto;
          margin-bottom: 70px;
 
-         @include mobile-query {
+         @include tablet-query {
             grid-template-columns: repeat(2, 2fr);
             grid-column-gap: 0;
             max-width: 375px;
@@ -277,11 +277,17 @@
       // fonts
       &__fonts {
          display: flex;
+         flex-wrap: wrap;
          justify-content: center;
 
          img {
             width: 200px;
             margin: 0 20px;
+         }
+         img:first-child {
+            @include mobile-query {
+               margin-bottom: 40px;
+            }
          }
       }
    }
@@ -327,6 +333,8 @@
       }
    }
 
-
+   .leaflet {
+      padding-bottom: 50px;
+   }
 
 }

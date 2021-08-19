@@ -967,7 +967,7 @@ button:hover, .button:hover {
   margin: 0 auto;
   margin-bottom: 70px;
 }
-@media (max-width: 39.9375em) {
+@media (max-width: 63.9375em) {
   .graphic-design__portfolio .branding__pallete {
     grid-template-columns: repeat(2, 2fr);
     grid-column-gap: 0;
@@ -999,11 +999,17 @@ button:hover, .button:hover {
 }
 .graphic-design__portfolio .branding__fonts {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .graphic-design__portfolio .branding__fonts img {
   width: 200px;
   margin: 0 20px;
+}
+@media (max-width: 39.9375em) {
+  .graphic-design__portfolio .branding__fonts img:first-child {
+    margin-bottom: 40px;
+  }
 }
 .graphic-design__portfolio .portfolio__images {
   padding-top: 70px;
@@ -1032,6 +1038,9 @@ button:hover, .button:hover {
 .graphic-design__portfolio .portfolio-section .full-image img {
   width: 100%;
   border-radius: 3px;
+}
+.graphic-design__portfolio .leaflet {
+  padding-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
