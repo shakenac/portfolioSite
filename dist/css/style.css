@@ -94,7 +94,7 @@ h3 {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   margin: 0;
   padding-bottom: 8px;
@@ -777,7 +777,7 @@ button:hover, .button:hover {
 }
 
 .banner {
-  background: #f5f5f5;
+  background-color: #343434;
   padding-top: 70px;
   padding-bottom: 50px;
 }
@@ -810,8 +810,8 @@ button:hover, .button:hover {
   display: inline-block;
   position: relative;
   z-index: 1;
-  color: #343434;
-  font-size: 13.4px;
+  color: #bfbaa3;
+  font-size: 11px;
   margin-bottom: 0;
   margin-top: 5px;
 }
@@ -819,16 +819,17 @@ button:hover, .button:hover {
   content: "";
   position: absolute;
   height: 8px;
-  background-color: #ffd168;
+  background-color: #1d1d1d;
   width: 108%;
-  top: 9px;
+  top: 7px;
   bottom: 0;
   left: -6px;
   right: 0;
   z-index: -1;
 }
 .banner h4 {
-  padding-bottom: 15px;
+  padding-bottom: 13.5px;
+  color: #ffffff;
 }
 
 .banner__info {
@@ -844,14 +845,21 @@ button:hover, .button:hover {
 .banner__info ul {
   padding-left: 15px;
 }
+@media (max-width: 39.9375em) {
+  .banner__info ul {
+    padding-left: 0;
+  }
+}
 .banner__info ul li {
   margin-bottom: 2px;
   font-size: 12.5px;
+  color: #f2f0e7;
 }
 .banner__info p {
   max-width: 400px;
-  font-size: 12.5px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #f2f0e7;
 }
 @media (max-width: 39.9375em) {
   .banner__info p {
@@ -867,12 +875,26 @@ button:hover, .button:hover {
   flex-direction: column;
   justify-content: flex-start;
 }
+@media (max-width: 39.9375em) {
+  .banner__info .portfolio__btns {
+    margin-top: 20px;
+  }
+}
 .banner__info .portfolio__btns button,
 .banner__info .portfolio__btns .button {
   padding: 0.5rem 1.75rem;
   font-weight: 700;
   font-size: 12px;
   letter-spacing: 0.3px;
+  color: #f2f0e7;
+  border: 2px solid #f2f0e7;
+}
+.banner__info .portfolio__btns button:hover,
+.banner__info .portfolio__btns .button:hover {
+  background-color: #f2f0e7;
+  color: #343434;
+  font-weight: 800;
+  transition: all 100ms ease-in-out;
 }
 .banner__info .portfolio__btns button:first-child,
 .banner__info .portfolio__btns .button:first-child {
@@ -892,7 +914,7 @@ button:hover, .button:hover {
   }
 }
 .graphic-design__banner .multi-headers .section-header h2::before {
-  width: 112%;
+  width: 115%;
   left: -6px;
 }
 @media (max-width: 63.9375em) {
