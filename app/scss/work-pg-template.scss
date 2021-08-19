@@ -265,6 +265,10 @@
       padding-top: 70px;
       background-color: $gray;
 
+      // .portfolio-section {
+      //    padding-bottom: 40px;
+      // }
+
       .portfolio__info {
          display: flex;
          justify-content: space-between;
@@ -283,17 +287,21 @@
          }
       }
    }
+   .portfolio-section {
 
-   .full-image {
+      .full-image {
 
-      max-height: 700px;
-      overflow: hidden;
+         max-height: 700px;
+         overflow: hidden;
+         padding-bottom: 20px;
 
-      img {
-         width: 100%;
-         border-radius: 3px;
+         img {
+            width: 100%;
+            border-radius: 3px;
+         }
       }
    }
+
 
 
 }

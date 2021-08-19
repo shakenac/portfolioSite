@@ -1001,11 +1001,12 @@ button:hover, .button:hover {
 .graphic-design__portfolio .portfolio__images .portfolio__info .website__btns a {
   margin-left: 20px;
 }
-.graphic-design__portfolio .full-image {
+.graphic-design__portfolio .portfolio-section .full-image {
   max-height: 700px;
   overflow: hidden;
+  padding-bottom: 20px;
 }
-.graphic-design__portfolio .full-image img {
+.graphic-design__portfolio .portfolio-section .full-image img {
   width: 100%;
   border-radius: 3px;
 }
