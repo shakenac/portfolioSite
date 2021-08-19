@@ -292,7 +292,7 @@
       }
    }
 
-   // DMK Properties
+   /// DMK Properties
    .dmk-properties {
 
       // logo
@@ -337,6 +337,17 @@
          }
          .p4 {
             background-color: #77a6ac;
+         }
+      }
+
+      //fonts
+      .branding__fonts {
+         grid-row-gap: 40px;
+         
+         img:first-child {
+            @include mobile-query {
+               margin-bottom: 0;
+            }
          }
       }
 
