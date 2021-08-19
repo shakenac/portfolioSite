@@ -958,30 +958,6 @@ button:hover, .button:hover {
   width: 240px;
   padding: 70px 10px;
 }
-.graphic-design__portfolio .branding__logo-2 {
-  background-color: #f5f5f5;
-  margin-bottom: 50px;
-}
-.graphic-design__portfolio .branding__logo__inner {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  gap: 40px;
-}
-.graphic-design__portfolio .branding__logo__inner img:first-child {
-  width: 190px;
-}
-.graphic-design__portfolio .branding__logo__inner img {
-  width: 240px;
-  padding: 70px 10px;
-  align-self: center;
-}
-@media (max-width: 39.9375em) {
-  .graphic-design__portfolio .branding__logo__inner {
-    grid-template-columns: 1fr;
-  }
-}
 .graphic-design__portfolio .branding__pallete {
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
@@ -1032,6 +1008,42 @@ button:hover, .button:hover {
   .graphic-design__portfolio .branding__fonts img:first-child {
     margin-bottom: 40px;
   }
+}
+.graphic-design__portfolio .dmk-properties .branding__logo-2 {
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+}
+.graphic-design__portfolio .dmk-properties .branding__logo__inner {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 40px;
+}
+.graphic-design__portfolio .dmk-properties .branding__logo__inner img:first-child {
+  width: 190px;
+}
+.graphic-design__portfolio .dmk-properties .branding__logo__inner img {
+  width: 240px;
+  padding: 70px 10px;
+  align-self: center;
+}
+@media (max-width: 39.9375em) {
+  .graphic-design__portfolio .dmk-properties .branding__logo__inner {
+    grid-template-columns: 1fr;
+  }
+}
+.graphic-design__portfolio .dmk-properties .pallete .p1 {
+  background-color: #363434;
+}
+.graphic-design__portfolio .dmk-properties .pallete .p2 {
+  background-color: #f8f7f2;
+}
+.graphic-design__portfolio .dmk-properties .pallete .p3 {
+  background-color: #efe0a4;
+}
+.graphic-design__portfolio .dmk-properties .pallete .p4 {
+  background-color: #77a6ac;
 }
 .graphic-design__portfolio .portfolio__images {
   padding-top: 70px;
