@@ -220,8 +220,35 @@
          margin-bottom: 50px;
 
          img {
-            width: 275px;
+            width: 240px;
             padding: 70px 10px;
+         }
+      }
+      &__logo-2 {
+         background-color: $gray;
+         margin-bottom: 50px;
+      }
+      &__logo__inner {
+         // display: flex;
+         // flex-wrap: wrap;
+         // grid-auto-flow: column;
+         display: grid;
+         justify-items: center;
+         grid-template-columns: repeat(2, 1fr);
+         justify-content: center;
+         gap: 40px;
+
+         img:first-child {
+            width: 190px;
+         }
+
+         img {
+            width: 240px;
+            padding: 70px 10px;
+            align-self: center;
+         }
+         @include mobile-query {
+            grid-template-columns: 1fr;
          }
       }
 
