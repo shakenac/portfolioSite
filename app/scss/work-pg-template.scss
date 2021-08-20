@@ -3,8 +3,8 @@
    // background: $gray;
    background-color: $black;
 
-   padding-top: 70px;
-   padding-bottom: 50px;
+   padding-top: 100px;
+   padding-bottom: 70px;
 
    @include mobile-query {
       text-align: center;
@@ -298,9 +298,9 @@
       padding-top: 70px;
       background-color: $gray;
 
-      // .portfolio-section {
-      //    padding-bottom: 40px;
-      // }
+      .portfolio-section {
+         padding-bottom: 20px;
+      }
 
       .portfolio__info {
          display: flex;
