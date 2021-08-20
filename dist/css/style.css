@@ -538,7 +538,7 @@ button:hover, .button:hover {
   z-index: -1;
 }
 .process .container {
-  max-width: 600px;
+  max-width: 630px;
   position: relative;
   z-index: 1;
 }
