@@ -905,6 +905,15 @@ button:hover, .button:hover {
   margin-bottom: 10px;
 }
 
+.landingPage .section-header h2::before {
+  width: 115%;
+  left: -6px;
+}
+
+.landingPage-portfolio {
+  padding-bottom: 50px;
+}
+
 .graphic-design__banner .multi-headers {
   justify-content: flex-start;
   flex-direction: column;
