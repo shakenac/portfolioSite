@@ -36,15 +36,10 @@
             &::after {
                content: "";
                position: absolute;
-               // height: 0.875rem; //14px
-               height: 15px;
+               height: 29px;
                background-color: $orange;
-               //for desktop width will be 120%
-               //for mobile width will be
-               // width: 121%;
                width: 111%;
-               // top: 24px;
-               top: 43px;
+               top: 53px;
                bottom: 0px;
                left: -12px;
                right: 0;

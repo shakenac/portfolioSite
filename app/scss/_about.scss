@@ -72,6 +72,10 @@
          // about
          .about__me {
 
+            p {
+               line-height: 1.25rem;
+            }
+
             p:first-of-type {
                margin-bottom: 10px;
             }
