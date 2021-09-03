@@ -333,28 +333,6 @@ button:hover, .button:hover {
   position: relative;
   display: inline-block;
 }
-.hero__inner .hero__name h1::after {
-  content: "";
-  position: absolute;
-  height: 29px;
-  background-color: #ffd168;
-  width: 111%;
-  top: 53px;
-  bottom: 0px;
-  left: -12px;
-  right: 0;
-  z-index: -1;
-}
-@media (max-width: 39.9375em) {
-  .hero__inner .hero__name h1::after {
-    height: 11px;
-    width: 111%;
-    top: 35px;
-    bottom: 0px;
-    left: -12px;
-    right: 0;
-  }
-}
 .hero__inner .hero__job {
   margin-left: 0.75rem;
   margin-top: 1.25rem;

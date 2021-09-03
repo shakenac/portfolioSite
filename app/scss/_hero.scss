@@ -33,27 +33,27 @@
             position: relative;
             display: inline-block;
 
-            &::after {
-               content: "";
-               position: absolute;
-               height: 29px;
-               background-color: $orange;
-               width: 111%;
-               top: 53px;
-               bottom: 0px;
-               left: -12px;
-               right: 0;
-               z-index: -1;
-
-               @include mobile-query {
-                  height: 11px;
-                  width: 111%;
-                  top: 35px;
-                  bottom: 0px;
-                  left: -12px;
-                  right: 0;
-               }
-            }
+            // &::after {
+            //    content: "";
+            //    position: absolute;
+            //    height: 29px;
+            //    background-color: $orange;
+            //    width: 111%;
+            //    top: 53px;
+            //    bottom: 0px;
+            //    left: -12px;
+            //    right: 0;
+            //    z-index: -1;
+            //
+            //    @include mobile-query {
+            //       height: 11px;
+            //       width: 111%;
+            //       top: 35px;
+            //       bottom: 0px;
+            //       left: -12px;
+            //       right: 0;
+            //    }
+            // }
          }
       }
 
