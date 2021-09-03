@@ -185,6 +185,9 @@ button:hover, .button:hover {
   }
 }
 
+.header.open .header__menu {
+  right: 50px;
+}
 .header.open .header__menu > span:first-child {
   transform: rotate(45deg);
 }
