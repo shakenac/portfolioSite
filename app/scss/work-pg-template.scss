@@ -80,7 +80,8 @@
    }
 
    ul {
-      padding-left: 15px;
+      // padding-left: 15px;
+      padding-left: 0;
 
       @include mobile-query {
          padding-left: 0;
@@ -106,6 +107,7 @@
 
    }
    span {
+      display: none;
       padding-right: 5px;
       font-weight: 600;
    }
@@ -418,6 +420,28 @@
       }
 
    }
+
+
+   /// MKM Cargo
+   .mkm-cargo {
+
+      // pallete
+      .pallete {
+         .p1 {
+            background-color: #414042;
+         }
+         .p2 {
+            background-color: #1d77a5;
+         }
+         .p3 {
+            background-color: #efeeef;
+         }
+         .p4 {
+            background-color: #8ba55a;
+         }
+      }
+   }
+
 
    /// Wimlu
    .wilmu {
