@@ -19,6 +19,10 @@
 
    /// Work header
    &__header {
+
+      // slide in from bottom animation
+      animation: slideInFromBottom 800ms ease-in;
+
       @include mobile-query {
          padding-top: 2.1875rem; //35px
       }
@@ -96,6 +100,10 @@
    /// PORTFOLIO
 
    &__portfolio {
+
+      // slide in from bottom animation
+      animation: slideInFromBottom 900ms ease-in;
+
       .grid {
          gap: 3.125rem 2.5rem; //50px 40px
          padding-top: 1.25rem; //20px

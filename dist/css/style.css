@@ -426,6 +426,9 @@ button:hover, .button:hover {
 .work h4 {
   color: #ffffff;
 }
+.work__header {
+  animation: slideInFromBottom 800ms ease-in;
+}
 @media (max-width: 39.9375em) {
   .work__header {
     padding-top: 2.1875rem;
@@ -484,6 +487,9 @@ button:hover, .button:hover {
   padding-bottom: 0.25rem;
   border-bottom: 0.125rem solid #ffd168;
   color: #ffffff;
+}
+.work__portfolio {
+  animation: slideInFromBottom 900ms ease-in;
 }
 .work__portfolio .grid {
   gap: 3.125rem 2.5rem;
