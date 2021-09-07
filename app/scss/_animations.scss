@@ -48,16 +48,39 @@
 }
 
 
-// @keyframes scale-out {
-//    from {
-//       transform: scale(1);
-//       -ms-tranform: scale(1);
-//    }
-//    to {
-//       transform: scale(0);
-//       -ms-tranform: scale(0);
-//    }
-// }
-// .scale-out {
-//    animation: scale-out 500ms ease;
-// }
+/// Slide in Content
+@keyframes slideInFromLeft {
+   from {
+      transform: translateX(-100%); //the negative value pushes content over to the left off screen
+   }
+   to {
+      transform: translateX(0); // 0 is the normal position
+   }
+}
+
+@keyframes slideInFromRight {
+   from {
+      transform: translateX(100%); // value pushes content over to the right off screen
+   }
+   to {
+      transform: translateX(0);
+   }
+}
+
+@keyframes slideInFromTop {
+   from {
+      transform: translateY(-100%);
+   }
+   to {
+      transform: translateX(0);
+   }
+}
+
+@keyframes slideInFromBottom {
+   from {
+      transform: translateY(100%);
+   }
+   to {
+      transform: translateX(0);
+   }
+}
