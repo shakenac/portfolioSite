@@ -361,6 +361,12 @@ button:hover, .button:hover {
     flex-direction: column;
   }
 }
+.hero__inner .hero__name .firstName {
+  animation: slideInFromLeft 600ms ease-in;
+}
+.hero__inner .hero__name .lastName {
+  animation: slideInFromLeft 700ms ease-in;
+}
 .hero__inner .hero__name h1 {
   margin-left: 0.75rem;
   position: relative;
@@ -391,6 +397,12 @@ button:hover, .button:hover {
 .hero__inner .hero__job {
   margin-left: 0.75rem;
   margin-top: 1.25rem;
+}
+.hero__inner .hero__job h2:first-child {
+  animation: slideInFromLeft 800ms ease-in;
+}
+.hero__inner .hero__job h2:last-child {
+  animation: slideInFromLeft 900ms ease-in;
 }
 .hero__inner .hero__job h2 {
   font-size: 0.75rem;

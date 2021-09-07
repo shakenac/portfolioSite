@@ -17,6 +17,9 @@
 
       .hero__name {
 
+         // slide in from left animation
+         // animation: slideInFromLeft 500ms ease-in;
+
          @include tablet-query {
             // display: flex;
          }
@@ -26,6 +29,16 @@
          @include mobile-query {
             display: flex;
             flex-direction: column;
+         }
+
+         .firstName {
+            // slide in from left animation
+            animation: slideInFromLeft 600ms ease-in;
+         }
+         .lastName {
+            // slide in from left animation
+            animation: slideInFromLeft 700ms ease-in;
+            // animation-delay: 100ms;
          }
 
          h1 {
@@ -60,6 +73,15 @@
       .hero__job {
          margin-left: 0.75rem;
          margin-top: 1.25rem;
+
+         h2:first-child {
+            // slide in from left animation
+            animation: slideInFromLeft 800ms ease-in;
+         }
+         h2:last-child {
+            // slide in from left animation
+            animation: slideInFromLeft 900ms ease-in;
+         }
 
          h2 {
             font-size: 0.75rem;
