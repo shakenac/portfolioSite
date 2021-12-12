@@ -1,6 +1,6 @@
 .about {
    padding-top: 70px;
-   padding-bottom: 70px;
+   padding-bottom: 90px;
    background-color: $gray;
 
    .section-header {
@@ -62,7 +62,7 @@
       // about / contact
       .about-contact {
 
-         grid-row-gap: 40px;
+         grid-row-gap: 25px;
 
          @include mobile-query {
             order: 2;

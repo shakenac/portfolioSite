@@ -630,7 +630,7 @@ button:hover, .button:hover {
 
 .about {
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
   background-color: #f5f5f5;
 }
 .about .section-header {
@@ -686,7 +686,7 @@ button:hover, .button:hover {
   }
 }
 .about .container .about-contact {
-  grid-row-gap: 40px;
+  grid-row-gap: 25px;
 }
 @media (max-width: 39.9375em) {
   .about .container .about-contact {
