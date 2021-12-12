@@ -234,8 +234,8 @@ button:hover, .button:hover {
 }
 .header nav {
   height: 3.125rem;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 3.125rem;
+  padding-bottom: 2.1875rem;
   position: relative;
 }
 .header__logo {
